@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/26/2011 7:50:07 PM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_SCIENCE_BOOST</Type>
+			<Description>TXT_KEY_TRAIT_SCIENCE_BOOST</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SCIENCE_BOOST_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Trait_YieldChanges>
+		<Row>
+			<TraitType>TRAIT_SCIENCE_BOOST</TraitType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Trait_YieldChanges>
+</GameData>
