@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ModBuddy Solution File, Format Version 11.00
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "MoeWar", "MoeWar\MoeWar.civ5proj", "{9160A643-2D23-48E5-A487-32639E6B1B1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|x86 = Default|x86
+		Deploy Only|x86 = Deploy Only|x86
+		Package Only|x86 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9160A643-2D23-48E5-A487-32639E6B1B1D}.Default|x86.ActiveCfg = Default|x86
+		{9160A643-2D23-48E5-A487-32639E6B1B1D}.Default|x86.Build.0 = Default|x86
+		{9160A643-2D23-48E5-A487-32639E6B1B1D}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{9160A643-2D23-48E5-A487-32639E6B1B1D}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{9160A643-2D23-48E5-A487-32639E6B1B1D}.Package Only|x86.ActiveCfg = Package Only|x86
+		{9160A643-2D23-48E5-A487-32639E6B1B1D}.Package Only|x86.Build.0 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="70cd033e-f5a5-4e1d-8657-0c19f76f91f6" version="1">
+  <Properties>
+    <Name>MoeWarCC</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Civ V Saimoe Tournament, hosted by XXX</Teaser>
+    <Description>Civ V Saimoe Tournament, hosted by XXX</Description>
+    <Authors>L.T.</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="844746C96928DF0F17BEE514EFF67614" import="0">XML/Civilizations/CIV5Traits.xml</File>
+    <File md5="98C1C9DEF8B7CB8D179C61ADE1A88DFF" import="0">XML/Civilizations/Civilization_CLANNAD.xml</File>
+    <File md5="44426B476CEC0B5EE7D06A0304BA3A38" import="0">XML/Interface/CIV5PlayerColors.xml</File>
+    <File md5="F372EA334DA5E5A38F8650B4C8AA805F" import="0">XML/Leaders/CIV5Leader_Kotomi.xml</File>
+    <File md5="F3ADA2BA6490770E234B5180FEB4FA93" import="0">XML/NewText/CIV5GameTextInfos_Civilizations.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML\Civilizations\Civilization_CLANNAD.xml</UpdateDatabase>
+      <UpdateDatabase>XML\NewText\CIV5GameTextInfos_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML\Leaders\CIV5Leader_Kotomi.xml</UpdateDatabase>
+      <UpdateDatabase>XML\Civilizations\CIV5Traits.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
