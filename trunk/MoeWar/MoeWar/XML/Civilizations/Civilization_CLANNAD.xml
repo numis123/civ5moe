@@ -3,11 +3,11 @@
 <GameData>
 	<Civilizations>
 		<Row>
-			<Type>CIVILIZATION_CLANNAD</Type>
-			<Description>TXT_KEY_CIV_CLANNAD_DESC</Description>
-			<ShortDescription>TXT_KEY_CIV_CLANNAD_SHORT_DESC</ShortDescription>
-			<Adjective>TXT_KEY_CIV_CLANNAD_ADJECTIVE</Adjective>
-			<CivilopediaTag>TXT_KEY_CIV5_CLANNAD</CivilopediaTag>
+			<Type>CIVILIZATION_KOTOMI</Type>
+			<Description>TXT_KEY_CIV_KOTOMI_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_KOTOMI_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_KOTOMI_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_KOTOMI</CivilopediaTag>
 			<DefaultPlayerColor>PLAYERCOLOR_BLUE</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_JAPAN</ArtDefineTag>
 			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
@@ -17,40 +17,81 @@
 			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>MapJAPAN512.dds</MapImage>
-			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_CLANNAD_TEXT</DawnOfManQuote>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_KOTOMI_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_TOMOYO</Type>
+			<Description>TXT_KEY_CIV_TOMOYO_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_TOMOYOI_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_TOMOYO_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_TOMOYO</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_JAPAN</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<PortraitIndex>13</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapJAPAN512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_TOMOYO_TEXT</DawnOfManQuote>
 			<DawnOfManImage>DOM_Oda.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 	</Civilizations>
 	<Civilization_CityNames>
 		<Row>
-			<CivilizationType>CIVILIZATION_CLANNAD</CivilizationType>
+			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
 			<CityName>TXT_KEY_CITY_NAME_HIKARIZAKA_HIGH</CityName>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_CLANNAD</CivilizationType>
+			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
 			<CityName>TXT_KEY_CITY_NAME_RESIDENCE</CityName>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_CLANNAD</CivilizationType>
+			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FURUKAWA_PAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HIKARIZAKA_HIGH</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_RESIDENCE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
 			<CityName>TXT_KEY_CITY_NAME_FURUKAWA_PAN</CityName>
 		</Row>
 	</Civilization_CityNames>
 	<Civilization_FreeBuildingClasses>
 		<Row>
-			<CivilizationType>CIVILIZATION_CLANNAD</CivilizationType>
+			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 		</Row>
 	</Civilization_FreeBuildingClasses>
 	<Civilization_FreeTechs>
 		<Row>
-			<CivilizationType>CIVILIZATION_CLANNAD</CivilizationType>
+			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
 			<TechType>TECH_AGRICULTURE</TechType>
 		</Row>
 	</Civilization_FreeTechs>
 	<Civilization_FreeUnits>
 		<Row>
-			<CivilizationType>CIVILIZATION_CLANNAD</CivilizationType>
+			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
 			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
 			<Count>1</Count>
 			<UnitAIType>UNITAI_SETTLE</UnitAIType>
@@ -58,13 +99,21 @@
 	</Civilization_FreeUnits>
 	<Civilization_Leaders>
 		<Row>
-			<CivilizationType>CIVILIZATION_CLANNAD</CivilizationType>
+			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
 			<LeaderheadType>LEADER_KOTOMI</LeaderheadType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
+			<LeaderheadType>LEADER_TOMOYO</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
 	<Civilization_Start_Region_Priority>
 		<Row>
-			<CivilizationType>CIVILIZATION_CLANNAD</CivilizationType>
+			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
+			<RegionType>REGION_HILLS</RegionType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
 			<RegionType>REGION_HILLS</RegionType>
 		</Row>
 	</Civilization_Start_Region_Priority>
