@@ -12,22 +12,22 @@
 		<Row Tag="TXT_KEY_CITY_NAME_FURUKAWA_PAN">
 			<Text>Furukawa Pan</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV_CLANNAD_ADJECTIVE">
-			<Text>Clannad's</Text>
+		<Row Tag="TXT_KEY_CIV_KOTOMI_ADJECTIVE">
+			<Text>KOTOMI's</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV_CLANNAD_DESC">
+		<Row Tag="TXT_KEY_CIV_KOTOMI_DESC">
 			<Text>Hikarizaka High School Drana Club</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV_CLANNAD_SHORT_DESC">
-			<Text>Clannad</Text>
+		<Row Tag="TXT_KEY_CIV_KOTOMI_SHORT_DESC">
+			<Text>KOTOMI</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_DAWN_CLANNAD_TEXT">
+		<Row Tag="TXT_KEY_CIV5_DAWN_KOTOMI_TEXT">
 			<Text>Best game from Key.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_CLANNAD_HEADING_1">
+		<Row Tag="TXT_KEY_CIV5_KOTOMI_HEADING_1">
 			<Text>History</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_CLANNAD_TEXT_1">
+		<Row Tag="TXT_KEY_CIV5_KOTOMI_TEXT_1">
 			<Text>Lazy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_KOTOMI_HEADING_1">
@@ -43,7 +43,7 @@
 			<Text>Ichinose Kotomi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_KOTOMI_SUBTITLE">
-			<Text>Leader in Clannad</Text>
+			<Text>Leader in KOTOMI</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_KOTOMI">
 			<Text>Ichinose Kotomi</Text>
