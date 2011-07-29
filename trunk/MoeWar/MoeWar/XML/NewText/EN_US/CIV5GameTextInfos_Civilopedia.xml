@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/30/2011 1:33:39 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_KOTOMI_LIVED">
+			<Text>?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_KOTOMI_NAME">
+			<Text>Ichinose Kotomi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_KOTOMI_SUBTITLE">
+			<Text>Leader in KOTOMI</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>
