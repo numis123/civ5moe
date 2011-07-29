@@ -24,16 +24,6 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Civilizations/Civilization_CLANNAD.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>XML/NewText/CIV5GameTextInfos_Civilizations.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
         <FileName>XML/Leaders/CIV5Leader_Kotomi.xml</FileName>
       </Action>
       <Action>
@@ -66,6 +56,36 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/Civilizations/CIV5Traits.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Civilizations/CIV5Civilizations.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Jon.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Civilizations.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/NewText/EN_US/CIV5GameText_Cities.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Civilopedia.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Leaders.xml</FileName>
+      </Action>
     </ModActions>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -83,13 +103,14 @@
     <Folder Include="XML\Interface" />
     <Folder Include="XML\Leaders" />
     <Folder Include="XML\NewText" />
+    <Folder Include="XML\NewText\EN_US" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="XML\Civilizations\CIV5Traits.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Civilizations\Civilization_CLANNAD.xml">
+    <Content Include="XML\Civilizations\CIV5Civilizations.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -121,7 +142,23 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\NewText\CIV5GameTextInfos_Civilizations.xml">
+    <Content Include="XML\NewText\EN_US\CIV5GameTextInfos_Civilizations.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\NewText\EN_US\CIV5GameTextInfos_Jon.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\NewText\EN_US\CIV5GameTextInfos_Civilopedia.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\NewText\EN_US\CIV5GameText_Cities.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\NewText\EN_US\CIV5GameTextInfos_Leaders.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

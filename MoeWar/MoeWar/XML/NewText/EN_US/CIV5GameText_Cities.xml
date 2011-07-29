@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/30/2011 1:36:10 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_HIKARIZAKA_HIGH">
+			<!--Hikarizaka Private High School-->
+			<Text>Hikarizaka High</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RESIDENCE">
+			<Text>Residence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FURUKAWA_PAN">
+			<Text>Furukawa Pan</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

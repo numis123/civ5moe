@@ -2,17 +2,48 @@
 <!-- Created by ModBuddy on 7/26/2011 7:50:07 PM -->
 <GameData>
 	<Traits>
+		<!-- 领袖琴美的UA -->
 		<Row>
 			<Type>TRAIT_SCIENCE_BOOST</Type>
 			<Description>TXT_KEY_TRAIT_SCIENCE_BOOST</Description>
 			<ShortDescription>TXT_KEY_TRAIT_SCIENCE_BOOST_SHORT</ShortDescription>
 		</Row>
+		<!-- 领袖风子的UA -->
+		<Row>
+			<Type>TRAIT_STARFISH_BLESSING</Type>
+			<Description>TXT_KEY_TRAIT_STARFISH_BLESSING</Description>
+			<ShortDescription>TXT_KEY_TRAIT_STARFISH_BLESSING_SHORT</ShortDescription>
+		</Row>
 	</Traits>
+	<!-- UA对地块产出的修正 -->
 	<Trait_YieldModifiers>
 		<Row>
 			<TraitType>TRAIT_SCIENCE_BOOST</TraitType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>10</Yield>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_STARFISH_BLESSING</TraitType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
 		</Row>
 	</Trait_YieldModifiers>
+	<!-- UA对资源产出的修正 -->
+	<Trait_ResourceQuantityModifiers>
+		<Row>
+			<TraitType>TRAIT_STARFISH_BLESSING</TraitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row> 
+		<Row>
+			<TraitType>TRAIT_STARFISH_BLESSING</TraitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row> 
+		<Row>
+			<TraitType>TRAIT_STARFISH_BLESSING</TraitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers>
 </GameData>
