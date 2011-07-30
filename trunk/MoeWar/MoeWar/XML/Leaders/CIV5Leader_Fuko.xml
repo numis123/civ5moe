@@ -7,7 +7,7 @@
 			<Description>TXT_KEY_LEADER_FUKO</Description>
 			<Civilopedia>TXT_KEY_LEADER_FUKO_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_FUKO</CivilopediaTag>
-			<ArtDefineTag>FUKO_Scene.xml</ArtDefineTag>
+			<ArtDefineTag>OdaNobunaga_Scene.xml</ArtDefineTag>
 			<VictoryCompetitiveness>6</VictoryCompetitiveness>
 			<WonderCompetitiveness>7</WonderCompetitiveness>
 			<MinorCivCompetitiveness>7</MinorCivCompetitiveness>
