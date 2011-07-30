@@ -229,7 +229,7 @@
 	<Leader_Traits>
 		<Row>
 			<LeaderType>LEADER_TOMOYO</LeaderType>
-			<TraitType>TRAIT_SCIENCE_BOOST</TraitType>
+			<TraitType>TRAIT_KING_MIGHTY</TraitType>
 		</Row>
 	</Leader_Traits>
 </GameData>

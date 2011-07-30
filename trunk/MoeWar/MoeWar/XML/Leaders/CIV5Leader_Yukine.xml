@@ -229,7 +229,7 @@
 	<Leader_Traits>
 		<Row>
 			<LeaderType>LEADER_YUKINE</LeaderType>
-			<TraitType>TRAIT_SCIENCE_BOOST</TraitType>
+			<TraitType>TRAIT_ANEGO</TraitType>
 		</Row>
 	</Leader_Traits>
 </GameData>

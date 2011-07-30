@@ -229,7 +229,7 @@
 	<Leader_Traits>
 		<Row>
 			<LeaderType>LEADER_NAGISA</LeaderType>
-			<TraitType>TRAIT_SCIENCE_BOOST</TraitType>
+			<TraitType>TRAIT_DAUGHTER_OF_TOWN</TraitType>
 		</Row>
 	</Leader_Traits>
 </GameData>
