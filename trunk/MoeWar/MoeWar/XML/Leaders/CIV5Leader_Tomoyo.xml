@@ -7,7 +7,7 @@
 			<Description>TXT_KEY_LEADER_TOMOYO</Description>
 			<Civilopedia>TXT_KEY_LEADER_TOMOYO_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_TOMOYO</CivilopediaTag>
-			<ArtDefineTag>FUKO_Scene.xml</ArtDefineTag>
+			<ArtDefineTag>Wu_Scene.xml</ArtDefineTag>
 			<VictoryCompetitiveness>3</VictoryCompetitiveness>
 			<WonderCompetitiveness>5</WonderCompetitiveness>
 			<MinorCivCompetitiveness>7</MinorCivCompetitiveness>

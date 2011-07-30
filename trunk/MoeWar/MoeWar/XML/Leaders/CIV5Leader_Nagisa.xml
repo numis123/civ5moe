@@ -7,7 +7,7 @@
 			<Description>TXT_KEY_LEADER_NAGISA</Description>
 			<Civilopedia>TXT_KEY_LEADER_NAGISA_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_NAGISA</CivilopediaTag>
-			<ArtDefineTag>OdaNobunaga_Scene.xml</ArtDefineTag>
+			<ArtDefineTag>Elizabeth_Scene.xml</ArtDefineTag>
 			<VictoryCompetitiveness>4</VictoryCompetitiveness>
 			<WonderCompetitiveness>9</WonderCompetitiveness>
 			<MinorCivCompetitiveness>5</MinorCivCompetitiveness>
@@ -215,16 +215,17 @@
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
-    <Row>
-      <LeaderType>LEADER_NAGISA</LeaderType>
-      <FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
-      <Flavor>5</Flavor>
-    </Row>
-    <Row>
-      <LeaderType>LEADER_NAGISA</LeaderType>
-      <FlavorType>FLAVOR_NUKE</FlavorType>
-      <Flavor>8</Flavor>
-    </Row>
+		<Row>
+		  <LeaderType>LEADER_NAGISA</LeaderType>
+		  <FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+		  <Flavor>5</Flavor>
+		</Row>
+		<Row>
+		  <LeaderType>LEADER_NAGISA</LeaderType>
+		  <FlavorType>FLAVOR_NUKE</FlavorType>
+		  <Flavor>8</Flavor>
+		</Row>
+	</Leader_Flavors>
 	<Leader_Traits>
 		<Row>
 			<LeaderType>LEADER_NAGISA</LeaderType>

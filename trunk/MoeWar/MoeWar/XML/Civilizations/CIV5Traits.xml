@@ -20,11 +20,7 @@
 		<Row>
 			<TraitType>TRAIT_SCIENCE_BOOST</TraitType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-<<<<<<< .mine
-			<Yield>15</Yield>
-=======
 			<Yield>1</Yield>
->>>>>>> .r19
 		</Row>
 		<Row>
 			<TraitType>TRAIT_STARFISH_BLESSING</TraitType>
