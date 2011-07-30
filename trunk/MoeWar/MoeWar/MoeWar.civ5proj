@@ -9,9 +9,8 @@
     <Stability>Alpha</Stability>
     <Teaser>Civ V Saimoe Tournament, hosted by XXX</Teaser>
     <Description>Civ V Saimoe Tournament, hosted by XXX</Description>
-    <Authors>L.T. .......</Authors>
-    <SpecialThanks>
-    </SpecialThanks>
+    <Authors>L.T;Arkin</Authors>
+    <SpecialThanks>西艾薇·C·Kyou</SpecialThanks>
     <Categories>$Categories$</Categories>
     <AffectsSavedGames>true</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
@@ -86,7 +85,22 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Leaders.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Buildings/CIV5Buildings.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Buildings.xml</FileName>
+      </Action>
     </ModActions>
+    <ModProperties />
+    <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
+    <ReloadUnitSystem>true</ReloadUnitSystem>
+    <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
+    <HideSetupGame>false</HideSetupGame>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -102,10 +116,15 @@
     <Folder Include="XML\Civilizations" />
     <Folder Include="XML\Interface" />
     <Folder Include="XML\Leaders" />
+    <Folder Include="XML\Buildings" />
     <Folder Include="XML\NewText" />
     <Folder Include="XML\NewText\EN_US" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="XML\Buildings\CIV5Buildings.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="XML\Civilizations\CIV5Traits.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -139,6 +158,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Leaders\CIV5Leader_Yukine.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\NewText\EN_US\CIV5GameTextInfos_Buildings.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
