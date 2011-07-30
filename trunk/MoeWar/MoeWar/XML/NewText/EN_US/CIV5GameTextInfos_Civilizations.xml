@@ -6,14 +6,10 @@
 			<Text>KOTOMI's</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_KOTOMI_DESC">
-			<Text>Hikarizaka High School Drana Club</Text>
+			<Text>Hikarizaka High School Drama Club</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_KOTOMI_SHORT_DESC">
 			<Text>KOTOMI</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_DAWN_KOTOMI_TEXT">
-			<!--<Text>Best game from Key.</Text>-->
-			<Text>KOTOMI wants you!</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
