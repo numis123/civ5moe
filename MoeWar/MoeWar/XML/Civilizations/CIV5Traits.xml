@@ -4,46 +4,57 @@
 	<Traits>
 		<!-- 领袖琴美的UA -->
 		<Row>
-			<Type>TRAIT_SCIENCE_BOOST</Type>
-			<Description>TXT_KEY_TRAIT_SCIENCE_BOOST</Description>
-			<ShortDescription>TXT_KEY_TRAIT_SCIENCE_BOOST_SHORT</ShortDescription>
+			<Type>TRAIT_TALENTED_GIRL</Type>
+			<Description>TXT_KEY_TRAIT_TALENTED_GIRL</Description>
+			<ShortDescription>TXT_KEY_TRAIT_TALENTED_GIRL_SHORT</ShortDescription>
+			<Trait_YieldModifiers>
+				<TraitType>TRAIT_TALENTED_GIRL</TraitType>
+				<Yieldtype>YIELD_SCIENCE</Yieldtype>
+				<Yield>15</Yield>					
+			</Trait_YieldModifiers>
 		</Row>
 		<!-- 领袖风子的UA -->
 		<Row>
 			<Type>TRAIT_STARFISH_BLESSING</Type>
 			<Description>TXT_KEY_TRAIT_STARFISH_BLESSING</Description>
 			<ShortDescription>TXT_KEY_TRAIT_STARFISH_BLESSING_SHORT</ShortDescription>
+			<GoldenAgeDurationModifier>100</GoldenAgeDurationModifier>
+		</Row>
+		<!-- 领袖渚的UA -->
+		<Row>
+			<Type>TRAIT_DAUGHTER_OF_TOWN</Type>
+			<Description>TXT_KEY_TRAIT_DAUGHTER_OF_TOWN</Description>
+			<ShortDescription>TXT_KEY_TRAIT_DAUGHTER_OF_TOWN_SHORT</ShortDescription>
+			<PopulationUnhappinessModifier>-25</PopulationUnhappinessModifier>
+		</Row>
+		<!-- 领袖杏的UA -->
+		<Row>
+			<Type>TRAIT_TSUKKOMI</Type>
+			<Description>TXT_KEY_TRAIT_TSUKKOMI</Description>
+			<ShortDescription>TXT_KEY_TRAIT_TSUKKOMI_SHORT</ShortDescription>
+			<CityCultureBonus>1</CityCultureBonus>
+			<Trait_YieldModifiers>
+				<TraitType>TRAIT_TSUKKOMI</TraitType>
+				<Yieldtype>YIELD_CULTURE</Yieldtype>
+				<Yield>15</Yield>
+			</Trait_YieldModifiers>
+		</Row>
+		<!-- 领袖智代的UA -->
+		<Row>
+			<Type>TRAIT_KING_MIGHTY</Type>
+			<Description>TXT_KEY_TRAIT_KING_MIGHTY</Description>
+			<ShortDescription>TXT_KEY_TRAIT_KING_MIGHTY_SHORT</ShortDescription>
+			<Trait_FreePromotions>
+				<TraitType>TRAIT_KING_MIGHTY</TraitType>
+				<PromotionType>MORALE</PromotionType>
+			</Trait_FreePromotions>
+		</Row>
+		<!-- 领袖有纪宁的UA -->
+		<Row>
+			<Type>TRAIT_ANEGO</Type>
+			<Description>TXT_KEY_TRAIT_ANEGO</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ANEGO_SHORT</ShortDescription>
+			<CityStateBonusModifier>33</CityStateBonusModifier>
 		</Row>
 	</Traits>
-	<!-- UA对地块产出的修正 -->
-	<Trait_YieldModifiers>
-		<Row>
-			<TraitType>TRAIT_SCIENCE_BOOST</TraitType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_STARFISH_BLESSING</TraitType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Trait_YieldModifiers>
-	<!-- UA对资源产出的修正 -->
-	<Trait_ResourceQuantityModifiers>
-		<Row>
-			<TraitType>TRAIT_STARFISH_BLESSING</TraitType>
-			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<ResourceQuantityModifier>100</ResourceQuantityModifier>
-		</Row> 
-		<Row>
-			<TraitType>TRAIT_STARFISH_BLESSING</TraitType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<ResourceQuantityModifier>100</ResourceQuantityModifier>
-		</Row> 
-		<Row>
-			<TraitType>TRAIT_STARFISH_BLESSING</TraitType>
-			<ResourceType>RESOURCE_URANIUM</ResourceType>
-			<ResourceQuantityModifier>100</ResourceQuantityModifier>
-		</Row>
-	</Trait_ResourceQuantityModifiers>
 </GameData>
