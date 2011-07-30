@@ -2,18 +2,41 @@
 <!-- Created by ModBuddy on 7/30/2011 1:28:42 AM -->
 <GameData>
 	<Language_en_US>
-		<Row Tag="TXT_KEY_TRAIT_SCIENCE_BOOST">
-			<Text>Increase national [ICON_RESEARCH] Science output by 10%.</Text>
+		<Row Tag="TXT_KEY_TRAIT_TALENTED_GIRL_SHORT">
+			<Text>TALENTED_GIRL</Text>
 		</Row>
-		<Row Tag="TXT_KEY_TRAIT_SCIENCE_BOOST_SHORT">
-			<Text>Genius</Text>
+		<Row Tag="TXT_KEY_TRAIT_TALENTED_GIRL">
+			<Text>National [ICON_SCIENCE]Science output is increased by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_STARFISH_BLESSING">
-			<Text>Strategic Resources provide +1 [ICON_PRODUCTION] Production and Horse, Iron and Uranium Resources provide double quantity.</Text>
+			<Text>[ICON_GOLDEN_AGE] Golden Ages last 100% longer.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_STARFISH_BLESSING_SHORT">
 			<Text>Starfish Blessing</Text>
 		</Row>
+        <Row Tag="TXT_KEY_TRAIT_DAUGHTER_OF_TOWN">
+			<Text>[ICON_HAPPINESS_4] Unhappiness from number of [ICON_CITIZEN] Citizens -25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_DAUGHTER_OF_TOWN_SHORT">
+			<Text>Daughter of town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TSUKKOMI">
+			<Text>+1 [ICON_CULTURE] Culture per turn from Cities, Cities [ICON_CULTURE]Culture output is increased by 15%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TSUKKOMI_SHORT">
+			<Text>Tsukkomi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_KING_MIGHTY">
+			<Text>All military units +15% [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_KING_MIGHTY_SHORT">
+			<Text>King mighty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ANEGO">
+			<Text>City-State [ICON_INFLUENCE] Influence degrades -33%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ANEGO_SHORT">
+			<Text>Anego</Text>
+		</Row>
 	</Language_en_US>
-  
 </GameData>
