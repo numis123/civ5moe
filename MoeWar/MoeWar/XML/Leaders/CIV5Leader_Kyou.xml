@@ -8,20 +8,20 @@
 			<Civilopedia>TXT_KEY_LEADER_KYOU_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_KYOU</CivilopediaTag>
 			<ArtDefineTag>OdaNobunaga_Scene.xml</ArtDefineTag>
-			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<VictoryCompetitiveness>5</VictoryCompetitiveness>
 			<WonderCompetitiveness>5</WonderCompetitiveness>
 			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
 			<Boldness>8</Boldness>
-			<DiploBalance>7</DiploBalance>
-			<WarmongerHate>6</WarmongerHate>
+			<DiploBalance>6</DiploBalance>
+			<WarmongerHate>4</WarmongerHate>
 			<DenounceWillingness>7</DenounceWillingness>
-			<DoFWillingness>6</DoFWillingness>
-			<Loyalty>10</Loyalty>
-			<Neediness>6</Neediness>
+			<DoFWillingness>5</DoFWillingness>
+			<Loyalty>5</Loyalty>
+			<Neediness>3</Neediness>
 			<Forgiveness>5</Forgiveness>
-			<Chattiness>3</Chattiness>
-			<Meanness>4</Meanness>
-			<PortraitIndex>13</PortraitIndex>
+			<Chattiness>6</Chattiness>
+			<Meanness>3</Meanness>
+			<PortraitIndex>15</PortraitIndex>
 			<IconAtlas>LEADER_ATLAS</IconAtlas>
 		</Row>
 	</Leaders>
@@ -29,12 +29,12 @@
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
-			<Bias>7</Bias>
+			<Bias>6</Bias>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
-			<Bias>5</Bias>
+			<Bias>6</Bias>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
@@ -44,17 +44,17 @@
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
-			<Bias>7</Bias>
+			<Bias>4</Bias>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
-			<Bias>2</Bias>
+			<Bias>5</Bias>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
-			<Bias>4</Bias>
+			<Bias>7</Bias>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
@@ -71,7 +71,7 @@
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
-			<Bias>4</Bias>
+			<Bias>5</Bias>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
@@ -81,29 +81,29 @@
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
-			<Bias>7</Bias>
+			<Bias>6</Bias>
 		</Row>
 	</Leader_MinorCivApproachBiases>
 	<Leader_Flavors>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>8</Flavor>
+			<Flavor>7</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>8</Flavor>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
@@ -118,17 +118,17 @@
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>7</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
@@ -143,7 +143,7 @@
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>6</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
@@ -153,7 +153,7 @@
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
@@ -173,12 +173,12 @@
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>6</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
@@ -188,12 +188,12 @@
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>6</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
@@ -208,23 +208,23 @@
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
-			<Flavor>7</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KYOU</LeaderType>
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
-			<Flavor>7</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
-		<Row>
-			<LeaderType>LEADER_KYOU</LeaderType>
-			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<LeaderType>LEADER_KYOU</LeaderType>
-			<FlavorType>FLAVOR_NUKE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
+    <Row>
+      <LeaderType>LEADER_KYOU</LeaderType>
+      <FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+      <Flavor>6</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_KYOU</LeaderType>
+      <FlavorType>FLAVOR_NUKE</FlavorType>
+      <Flavor>7</Flavor>
+    </Row>
 	</Leader_Flavors>
 	<Leader_Traits>
 		<Row>
