@@ -1,10 +1,10 @@
 小卖部，+2粮食，小麦、香蕉+1粮食，维护费1（Granary，Buffet）
 
-园艺部：33%粮食保留，维护费2（Adequate，Gardening Association）
+厨艺社：33%粮食保留，维护费2（Adequate，Cooking Association）
 
 食堂：+6粮食，维护费3（Hospital，Dining Hall）
 
-烹饪部：25%粮食保留，维护费4（Medical Lab，Cooking Association）
+园艺社：25%粮食保留，维护费4（Medical Lab，Gardening Association）
 
 垂钓部：水面+1粮食，维护费1（Lighthouse，Fishing Association）
 
