@@ -5,6 +5,21 @@
 		<Row Tag="TXT_KEY_LEADER_KOTOMI">
 			<Text>Ichinose Kotomi</Text>
 		</Row>
+		<Row Tag="TXT_KEY_LEADER_FUKO">
+			<Text>Ibuki Fuko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TOMOYO">
+			<Text>Sakagami Tomoyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NAGISA">
+			<Text>Furukawa Nagisa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KYOU">
+			<Text>Fujibayashi Kyou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_YUKINE">
+			<Text>Miyazawa YUkine</Text>
+		</Row>
 	</Language_en_US>
   
 </GameData>
