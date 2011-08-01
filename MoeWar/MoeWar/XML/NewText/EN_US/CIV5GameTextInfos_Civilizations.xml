@@ -3,13 +3,58 @@
 <GameData>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_CIV_KOTOMI_ADJECTIVE">
-			<Text>KOTOMI's</Text>
+			<Text>Kotomi's</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_KOTOMI_DESC">
 			<Text>Hikarizaka High School Drama Club</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_KOTOMI_SHORT_DESC">
-			<Text>KOTOMI</Text>
+			<Text>Kotomi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_FUKO_ADJECTIVE">
+			<Text>Fuko's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_FUKO_DESC">
+			<Text>Hikarizaka High School Drama Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_FUKO_SHORT_DESC">
+			<Text>Fuko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TOMOYO_ADJECTIVE">
+			<Text>Tomoyo's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TOMOYO_DESC">
+			<Text>Hikarizaka High School Drama Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TOMOYO_SHORT_DESC">
+			<Text>Tomoyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NAGISA_ADJECTIVE">
+			<Text>Nagisa's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NAGISA_DESC">
+			<Text>Hikarizaka High School Drama Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_NAGISA_SHORT_DESC">
+			<Text>Nagisa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_KYOU_ADJECTIVE">
+			<Text>Kyou's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_KYOU_DESC">
+			<Text>Hikarizaka High School Drama Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_KYOU_SHORT_DESC">
+			<Text>Kyou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_YUKINE_ADJECTIVE">
+			<Text>Yukine's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_YUKINE_DESC">
+			<Text>Hikarizaka High School Drama Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_YUKINE_SHORT_DESC">
+			<Text>Yukine</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
