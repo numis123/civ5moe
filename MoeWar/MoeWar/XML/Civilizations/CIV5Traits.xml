@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 7/26/2011 7:50:07 PM -->
 <GameData>
 	<Traits>
@@ -46,7 +46,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_KING_MIGHTY_SHORT</ShortDescription>
 			<Trait_FreePromotions>
 				<TraitType>TRAIT_KING_MIGHTY</TraitType>
-				<PromotionType>MORALE</PromotionType>
+				<PromotionType>PROMOTION_MORALE</PromotionType>
 			</Trait_FreePromotions>
 		</Row>
 		<!-- 领袖有纪宁的UA -->
@@ -55,6 +55,16 @@
 			<Description>TXT_KEY_TRAIT_ANEGO</Description>
 			<ShortDescription>TXT_KEY_TRAIT_ANEGO_SHORT</ShortDescription>
 			<CityStateBonusModifier>33</CityStateBonusModifier>
+		</Row>
+                <!-- 领袖黑子的UA -->
+		<Row>
+			<Type>TRAIT_TELOPORT</Type>
+			<Description>TXT_KEY_TRAIT_TELEPORT</Description>
+	   		<ShortDescription>TXT_KEY_TRAIT_TELEPORT_SHORT</ShortDescription>
+			<Trait_FreePromotions>
+				<TraitType>TRAIT_TELEPORT</TraitType>
+				<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+			</Trait_FreePromotions>
 		</Row>
 	</Traits>
 </GameData>

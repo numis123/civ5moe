@@ -12,6 +12,18 @@
 		<Row Tag="TXT_KEY_CITY_NAME_FURUKAWA_PAN">
 			<Text>Furukawa Pan</Text>
 		</Row>
+                <Row Tag="TXT_KEY_CITY_NAME_FURUKAWA_PAN">
+			<Text>Furukawa Pan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Tokiwadai_Middle_School">
+			<Text>Tokiwadai Middle School</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Sakugawa_Middle_School">
+			<Text>Sakugawa Middle School</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Fuuki_Ichinana_Shibu">
+			<Text>Fuuki Ichinana Shibu</Text>
+		</Row>
 	</Language_en_US>
   
 </GameData>

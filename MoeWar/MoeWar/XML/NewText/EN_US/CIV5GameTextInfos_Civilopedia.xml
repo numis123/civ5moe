@@ -18,6 +18,22 @@
                 <Row Tag="TXT_KEY_CIV5_DAWN_UNITEDSTATES_TITLE">
 			<Text>KOTOMI</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_KUROKO_LIVED">
+			<Text>?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_KUROKO_NAME">
+			<Text>Shirai Kuroko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_KOTOMI_SUBTITLE">
+			<Text>Leader of KUROKO</Text>
+		</Row>
+                <Row Tag="TXT_KEY_CIV5_DAWN_KOTOMI_TEXT">
+			<!--<Text>Best game from Key.</Text>-->
+			<Text>One sama!</Text>
+		</Row>
+                <Row Tag="TXT_KEY_CIV5_DAWN_UNITEDSTATES_TITLE">
+			<Text>KUROKO</Text>
+		</Row>
 	</Language_en_US>
   
 </GameData>

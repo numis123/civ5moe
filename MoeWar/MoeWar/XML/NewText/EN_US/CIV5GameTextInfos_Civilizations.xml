@@ -56,5 +56,14 @@
 		<Row Tag="TXT_KEY_CIV_YUKINE_SHORT_DESC">
 			<Text>Yukine</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CIV_KUROKO_ADJECTIVE">
+			<Text>Kuroko's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_KUROKO_DESC">
+			<Text>Shirai Kuroko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_KUROKO_SHORT_DESC">
+			<Text>Kuroko</Text>
+		</Row>
 	</Language_en_US>
 </GameData>
