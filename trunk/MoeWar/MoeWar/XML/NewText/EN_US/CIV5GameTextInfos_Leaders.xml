@@ -18,7 +18,10 @@
 			<Text>Fujibayashi Kyou</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_YUKINE">
-			<Text>Miyazawa YUkine</Text>
+			<Text>Miyazawa Yukine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_KUROKO">
+			<Text>Shirai Kuroko</Text>
 		</Row>
 	</Language_en_US>
   

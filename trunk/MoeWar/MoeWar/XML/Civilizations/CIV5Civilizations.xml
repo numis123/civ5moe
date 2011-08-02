@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 7/26/2011 7:03:34 PM -->
 <GameData>
 	<Civilizations>
@@ -122,6 +122,26 @@
 			<DawnOfManImage>DOM_Elizabeth.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_ENGLAND</DawnOfManAudio>
 		</Row>
+                <!-- 黑子文明  -->
+		<Row>
+			<Type>CIVILIZATION_KUROKO</Type>
+			<Description>TXT_KEY_CIV_KUROKO_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_KUROKO_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_KUROKO_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_KUROKO</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_GERMANY</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_GERMANY</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapGermany512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_GERMANY_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Bizmark.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_GERMANY</DawnOfManAudio>
+		</Row>
 		<!-- 屏蔽原版文明  -->
 		<Delete Type="CIVILIZATION_BARBARIAN"/>
 		<Delete Type="CIVILIZATION_AMERICA"/>
@@ -194,6 +214,19 @@
 			<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
 			<CityName>TXT_KEY_CITY_NAME_FURUKAWA_PAN</CityName>
 		</Row>
+                <!-- 黑子文明的城市  -->
+		<Row>
+			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
+		        <CityName>TXT_KEY_CITY_NAME_Tokiwadai_Middle_School</CityName>
+		</Row>
+                <Row>
+			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
+		        <CityName>TXT_KEY_CITY_NAME_Sakugawa_Middle_School</CityName>
+		</Row>
+                <Row>
+			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
+		        <CityName>TXT_KEY_CITY_NAME_Fuuki_Ichinana_Shibu</CityName>
+		</Row>
 	</Civilization_CityNames>
 	<!-- 各文明首都初始建筑设置，默认为宫殿  -->
 	<Civilization_FreeBuildingClasses>
@@ -221,6 +254,10 @@
 			<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
 	</Civilization_FreeBuildingClasses>
 	<!-- 各文明初始科技设置，默认为农业  -->
 	<Civilization_FreeTechs>
@@ -246,6 +283,10 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
 			<TechType>TECH_AGRICULTURE</TechType>
 		</Row>
 	</Civilization_FreeTechs>
@@ -287,6 +328,12 @@
 			<Count>1</Count>
 			<UnitAIType>UNITAI_SETTLE</UnitAIType>
 		</Row>
+                <Row>
+			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
 	</Civilization_FreeUnits>
 	<!-- 各文明领袖设置  -->
 	<Civilization_Leaders>
@@ -313,6 +360,10 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
 			<LeaderheadType>LEADER_YUKINE</LeaderheadType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
+			<LeaderheadType>LEADER_KUROKO</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
 	<!-- 各文明出生点偏向，四选一，有优先级  -->
