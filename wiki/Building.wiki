@@ -6,7 +6,7 @@
 
 园艺社：25%粮食保留，维护费4（Medical Lab，Gardening Association）
 
-垂钓部：水面+1粮食，维护费1（Lighthouse，Fishing Association）
+垂钓部：水面+1粮食+1金，维护费2（Lighthouse，Fishing Association）
 
 ——————————————————————————————
 
@@ -60,7 +60,7 @@
 
 ——————————————————————————————
 
-养殖部：牛、羊额外+1粮食，+2粮食，2维护费（Breeding Association）
+养殖部：牛、羊、鹿额外+1粮食，+2粮食，2维护费（Breeding Association）
 
 花园：伟人+33%（Garden），3维护费
 
@@ -73,6 +73,9 @@
 器材室：铁额外+1锤子，建造步兵、弓兵、攻城单位+20%，2维护费(Forge，Equipment Room)
 
 航模社：海格额外+1锤子，建造海军单位+20%，3维护费(Harbor，Shipmodel Association)
+
+水之色：建立连接首都商路，海上资源+1锤子+1金，3维护费（Mizunoiro）
+
 
 ——————————————————————————————
 
