@@ -15,13 +15,13 @@
                 <Row Tag="TXT_KEY_CITY_NAME_FURUKAWA_PAN">
 			<Text>Furukawa Pan</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_NAME_Tokiwadai_Middle_School">
+		<Row Tag="TXT_KEY_CITY_NAME_TOKOWADAI_MIDDLE_SCHOOL">
 			<Text>Tokiwadai Middle School</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_NAME_Sakugawa_Middle_School">
+		<Row Tag="TXT_KEY_CITY_NAME_SAKUGAWA_MIDDLE_SCHOOL">
 			<Text>Sakugawa Middle School</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_NAME_Fuuki_Ichinana_Shibu">
+		<Row Tag="TXT_KEY_CITY_NAME_FUUKI_ICHINANA_SHIBU">
 			<Text>Fuuki Ichinana Shibu</Text>
 		</Row>
 	</Language_en_US>
