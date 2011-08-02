@@ -53,6 +53,11 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>XML/Leaders/CIV5Leader_Kuroko.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>XML/Civilizations/CIV5Traits.xml</FileName>
       </Action>
       <Action>
@@ -88,12 +93,12 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Buildings/CIV5Buildings.xml</FileName>
+        <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Buildings.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Buildings.xml</FileName>
+        <FileName>XML/Buildings/CIV5Buildings.xml</FileName>
       </Action>
     </ModActions>
     <ModProperties />
@@ -142,6 +147,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Leaders\CIV5Leader_Kotomi.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Leaders\CIV5Leader_Kuroko.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
