@@ -225,7 +225,7 @@
 		</Row>
                 <Row>
 			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
-		        <CityName>TXT_KEY_CITY_NAME_FUUKI_ICHINANA_SHIBU</CityName>
+		        <CityName>TXT_KEY_CITY_NAME_JUDGEMENT_DAI_ICHINANA_SHIBU</CityName>
 		</Row>
 	</Civilization_CityNames>
 	<!-- 各文明首都初始建筑设置，默认为宫殿  -->
