@@ -5,26 +5,28 @@
 <!-- Game Text Objects -->
 <GameData>
 	<Language_en_US>
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_ACADEMY">
 			<Text>Academy</Text>
             <Gender>neuter:an</Gender>
 		</Row>
+		-->
 		<Row Tag="TXT_KEY_BUILDING_ANGKOR_WAT">
 			<Text>Angkor Wat</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_ARMORY">
-			<Text>Armory</Text>
+		<Row Tag="TXT_KEY_BUILDING_BASKETBALL_ASSOCIATION">
+			<Text>Basketball Association</Text>
             <Gender>neuter:an</Gender>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_ARSENAL">
-			<Text>Arsenal</Text>
+		<Row Tag="TXT_KEY_BUILDING_SECURITY_OFFICE">
+			<Text>Security Office</Text>
             <Gender>neuter:an</Gender>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BANK">
-			<Text>Bank</Text>
+		<Row Tag="TXT_KEY_BUILDING_SUPERMARKET">
+			<Text>Supermarket</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BARRACKS">
-			<Text>Barracks</Text>
+		<Row Tag="TXT_KEY_BUILDING_ATHLETICS_ASSOCIATION">
+			<Text>Athletics Association</Text>
             <Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BIG_BEN">
@@ -33,17 +35,17 @@
 		<Row Tag="TXT_KEY_BUILDING_BRANDENBURG_GATE">
 			<Text>Brandenburg Gate</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BROADCAST_TOWER">
-			<Text>Broadcast Tower</Text>
+		<Row Tag="TXT_KEY_BUILDING_K_ON">
+			<Text>K-ON!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_CASTLE">
-			<Text>Castle</Text>
+		<Row Tag="TXT_KEY_BUILDING_DORM_COUSIL">
+			<Text>Dorm cousil</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHICHEN_ITZA">
 			<Text>Chichen Itza</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_COLOSSEUM">
-			<Text>Colosseum</Text>
+		<Row Tag="TXT_KEY_BUILDING_PLAYGROUND">
+			<Text>Playground</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_COLOSSUS">
 			<Text>The Colossus</Text>
@@ -51,23 +53,25 @@
 		<Row Tag="TXT_KEY_BUILDING_CRISTO_REDENTOR">
 			<Text>Cristo Redentor</Text>
 		</Row>
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_SEAPORT">
 			<Text>Seaport</Text>
 		</Row>
+		-->
 		<Row Tag="TXT_KEY_BUILDING_EIFFEL_TOWER">
 			<Text>Eiffel Tower</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_FACTORY">
-			<Text>Factory</Text>
+		<Row Tag="TXT_KEY_BUILDING_ENGINEERING_ASSOCIATION">
+			<Text>Engineering Association</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FORBIDDEN_PALACE">
 			<Text>The Forbidden Palace</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_FORGE">
-			<Text>Forge</Text>
+		<Row Tag="TXT_KEY_BUILDING_EQUIPMENT_ROOM">
+			<Text>Equipment Room</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GRANARY">
-			<Text>Granary</Text>
+		<Row Tag="TXT_KEY_BUILDING_BUFFET">
+			<Text>Buffet</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_LIBRARY">
 			<Text>The Great Library</Text>
@@ -87,8 +91,8 @@
 		<Row Tag="TXT_KEY_BUILDING_HANGING_GARDEN">
 			<Text>The Hanging Gardens</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_HARBOR">
-			<Text>Harbor</Text>
+		<Row Tag="TXT_KEY_BUILDING_SHIPMODEL_ASSOCIATION">
+			<Text>Shipmodel Association</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEROIC_EPIC">
 			<Text>Heroic Epic</Text>
@@ -96,20 +100,22 @@
 		<Row Tag="TXT_KEY_BUILDING_HIMEJI_CASTLE">
 			<Text>Himeji Castle</Text>
 		</Row>
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_HYDRO_PLANT">
 			<Text>Hydro Plant</Text>
 		</Row>
+		-->
 		<Row Tag="TXT_KEY_BUILDING_KREMLIN">
 			<Text>The Kremlin</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_LABORATORY">
-			<Text>Research Lab</Text>
+		<Row Tag="TXT_KEY_BUILDING_LAB">
+			<Text>Lab</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_LIBRARY">
-			<Text>Library</Text>
+		<Row Tag="TXT_KEY_BUILDING_STUDY_ROOM">
+			<Text>Study room</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_LIGHTHOUSE">
-			<Text>Lighthouse</Text>
+		<Row Tag="TXT_KEY_BUILDING_FISHING_ASSOCIATION">
+			<Text>Fishing Association</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LOUVRE">
 			<Text>The Louvre</Text>
@@ -117,20 +123,24 @@
 		<Row Tag="TXT_KEY_BUILDING_MACHU_PICHU">
 			<Text>Machu Picchu</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MARKET">
-			<Text>Market</Text>
+		<Row Tag="TXT_KEY_BUILDING_SHOP">
+			<Text>Shop</Text>
 		</Row>
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_MILITARY_ACADEMY">
 			<Text>Military Academy</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MILITARY_BASE">
-			<Text>Military Base</Text>
+		-->
+		<Row Tag="TXT_KEY_BUILDING_POLICE_STATION">
+			<Text>Police Station</Text>
 		</Row>
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_MINT">
 			<Text>Mint</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MUSEUM">
-			<Text>Museum</Text>
+		-->
+		<Row Tag="TXT_KEY_BUILDING_OPERA_CLUB">
+			<Text>Opera Club</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE">
 			<Text>National College</Text>
@@ -147,14 +157,16 @@
 		<Row Tag="TXT_KEY_PROJECT_UTOPIA_PROJECT">
 			<Text>Utopia Project</Text>
 		</Row>
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_NUCLEAR_PLANT">
 			<Text>Nuclear Plant</Text>
 		</Row>
+		-->
 		<Row Tag="TXT_KEY_BUILDING_NOTRE_DAME">
 			<Text>Notre Dame</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_OPERA_HOUSE">
-			<Text>Opera House</Text>
+		<Row Tag="TXT_KEY_BUILDING_CHORUS_ASSOCIATION">
+			<Text>Chorus Association</Text>
             <Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORACLE">
@@ -172,9 +184,11 @@
 		<Row Tag="TXT_KEY_BUILDING_PORCELAIN_TOWER">
 			<Text>The Porcelain Tower</Text>
 		</Row>
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_OBSERVATORY">
 			<Text>Observatory</Text>
 		</Row>
+		-->
 		<Row Tag="TXT_KEY_BUILDING_PYRAMID">
 			<Text>The Pyramids</Text>
             <Plurality>2</Plurality>
@@ -182,14 +196,16 @@
 		<Row Tag="TXT_KEY_BUILDING_SISTINE_CHAPEL">
 			<Text>Sistine Chapel</Text>
 		</Row>
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_SOLAR_PLANT">
 			<Text>Solar Plant</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SPACESHIP_FACTORY">
 			<Text>Spaceship Factory</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STABLE">
-			<Text>Stable</Text>
+		-->
+		<Row Tag="TXT_KEY_BUILDING_MACHINARY_ASSOCIATION">
+			<Text>Machinary Association</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STATUE_OF_LIBERTY">
 			<Text>Statue of Liberty</Text>
@@ -200,33 +216,37 @@
 		<Row Tag="TXT_KEY_BUILDING_TAJ_MAHAL">
 			<Text>Taj Mahal</Text>
 		</Row>
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_TEMPLE">
 			<Text>Temple</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_THEATRE">
 			<Text>Theatre</Text>
 		</Row>
+		-->
 		<Row Tag="TXT_KEY_BUILDING_COURTHOUSE">
 			<Text>Courthouse</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_UNITED_NATIONS">
 			<Text>United Nations</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY">
-			<Text>University</Text>
+		<Row Tag="TXT_KEY_BUILDING_SCHOOL_LIBRARY">
+			<Text>School Library</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_WALLS">
-			<Text>Walls</Text>
+		<Row Tag="TXT_KEY_BUILDING_WALL">
+			<Text>Wall</Text>
             <Plurality>2</Plurality>
 		</Row>
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_WATERMILL">
 			<Text>Water Mill</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WINDMILL">
 			<Text>Windmill</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_WORKSHOP">
-			<Text>Workshop</Text>
+		-->
+		<Row Tag="TXT_KEY_BUILDING_HANDWORK_ASSOCIATION">
+			<Text>Handwork Association</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_DESC">
 			<Text>Mughal Fort</Text>
@@ -234,24 +254,26 @@
 		<Row Tag="TXT_KEY_BUILDING_AQUEDUCT">
 			<Text>Aqueduct</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_HOSPITAL">
-			<Text>Hospital</Text>
+		<Row Tag="TXT_KEY_BUILDING_DINING_HALL">
+			<Text>Dining Hall</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MEDICAL_LAB">
-			<Text>Medical Lab</Text>
+		<Row Tag="TXT_KEY_BUILDING_GARDENING_ASSOCIATION">
+			<Text>Gardening Association</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STOCK_EXCHANGE">
-			<Text>Stock Exchange</Text>
+		<Row Tag="TXT_KEY_BUILDING_COMMERCIAL_STREET">
+			<Text>Commercial Street</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_PUBLIC_SCHOOL">
-			<Text>Public School</Text>
+		<Row Tag="TXT_KEY_BUILDING_MEDIA_CLASSROOM">
+			<Text>Media Classroom</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_KREPOST_DESC">
 			<Text>Krepost</Text>
 		</Row>
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_CIRCUS">
 			<Text>Circus</Text>
 		</Row>
+		-->
 		<Row Tag="TXT_KEY_BUILDING_GARDEN">
 			<Text>Garden</Text>
 		</Row>
