@@ -1,11 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with Arkin-->
+<!-- Edited By Arkin-->
 <!-- 2011/7/30 ArtDefineTag未作修改-->
 <!-- 2011/7/30 UB未作修改-->
+<!-- 2011/8/3  效果未作修改-->
 <GameData>
 	<Buildings>
 		<!-- 屏蔽原版建筑 -->
 		<Delete Type="BUILDING_COURTHOUSE"/>
+		<Delete Type="BUILDING_STABLE"/>
+		<Delete Type="BUILDING_FORGE"/>
+		<Delete Type="BUILDING_LIGHTHOUSE"/>
+		<Delete Type="BUILDING_HARBOR"/>
+		<Delete Type="BUILDING_COLOSSEUM"/>
+		<Delete Type="BUILDING_MONUMENT"/>
+		<Delete Type="BUILDING_STADIUM"/>
+		<Delete Type="BUILDING_OPERA_HOUSE"/>
+		<Delete Type="BUILDING_MUSEUM"/>
+		<Delete Type="BUILDING_BROADCAST_TOWER"/>
+		<Delete Type="BUILDING_ARMORY"/>
+		<Delete Type="BUILDING_ARSENAL"/>
+		<Delete Type="BUILDING_WALLS"/>
+		<Delete Type="BUILDING_CASTLE"/>
+		<Delete Type="BUILDING_MILITARY_BASE"/>
+		<Delete Type="BUILDING_GRANARY"/>
+		<Delete Type="BUILDING_HOSPITAL"/>
+		<Delete Type="BUILDING_MEDICAL_LAB"/>
+		<Delete Type="BUILDING_WORKSHOP"/>
+		<Delete Type="BUILDING_FACTORY"/>
+		<Delete Type="BUILDING_MARKET"/>
+		<Delete Type="BUILDING_BANK"/>
+		<Delete Type="BUILDING_STOCK_EXCHANGE"/>
+		<Delete Type="BUILDING_LIBRARY"/>
+		<Delete Type="BUILDING_UNIVERSITY"/>
+		<Delete Type="BUILDING_PUBLIC_SCHOOL"/>
+		<Delete Type="BUILDING_LABORATORY"/>
+		<Delete Type="BUILDING_BARRACKS"/>
+		<!--尚未有替代建筑-->
+		<Delete Type="BUILDING_SEAPORT"/>
+		<Delete Type="BUILDING_WATERMILL"/>
+		<Delete Type="BUILDING_CIRCUS"/>
+		<Delete Type="BUILDING_WINDMILL"/>
+		<Delete Type="BUILDING_HYDRO_PLANT"/>
+		<Delete Type="BUILDING_SOLAR_PLANT"/>
+		<Delete Type="BUILDING_MINT"/>
+		<Delete Type="BUILDING_OBSERVATORY"/>
+		<Delete Type="BUILDING_MONASTERY"/>
+		<Delete Type="BUILDING_THEATRE"/>
+		<Delete Type="BUILDING_TEMPLE"/>
+		<Delete Type="BUILDING_MILITARY_ACADEMY"/>
+		<Delete Type="BUILDING_NUCLEAR_PLANT"/>
+		<Delete Type="BUILDING_SPACESHIP_FACTORY"/>
 		<!-- 家长委员会 -->
 		<Row>
 			<Type>BUILDING_PARENT_COMMITTEE</Type>
@@ -222,6 +266,7 @@
 			<PortraitIndex>55</PortraitIndex>
 		</Row>
 		<!-- Special Buildings -->
+		<!--
 		<Row>
 			<Type>BUILDING_SEAPORT</Type>
 			<BuildingClass>BUILDINGCLASS_SEAPORT</BuildingClass>
@@ -240,22 +285,25 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>48</PortraitIndex>
 		</Row>
+		-->
+		<!--机械社-->
 		<Row>
-			<Type>BUILDING_STABLE</Type>
+			<Type>BUILDING_MACHINARY_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
 			<Cost>100</Cost>
-			<GoldMaintenance>1</GoldMaintenance>
+			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
-			<Description>TXT_KEY_BUILDING_STABLE</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STABLE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_STABLE_STRATEGY</Strategy>
-			<Help>TXT_KEY_BUILDING_STABLE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MACHINARY_ASSOCIATION</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MACHINARY_ASSOCIATION_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MACHINARY_ASSOCIATION_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_MACHINARY_ASSOCIATION_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_STABLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>7</PortraitIndex>
 		</Row>
+		<!--
 		<Row>
 			<Type>BUILDING_WATERMILL</Type>
 			<BuildingClass>BUILDINGCLASS_WATERMILL</BuildingClass>
@@ -290,23 +338,26 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>44</PortraitIndex>
 		</Row>
+		-->
+		<!--器材室-->
 		<Row>
-			<Type>BUILDING_FORGE</Type>
+			<Type>BUILDING_EQUIPMENT_ROOM</Type>
 			<BuildingClass>BUILDINGCLASS_FORGE</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<Cost>120</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
-			<Description>TXT_KEY_BUILDING_FORGE</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FORGE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_FORGE_STRATEGY</Strategy>
-			<Help>TXT_KEY_BUILDING_FORGE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_EQUIPMENT_ROOM</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_EQUIPMENT_ROOM_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_EQUIPMENT_ROOM_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_EQUIPMENT_ROOM_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
+		<!--
 		<Row>
 			<Type>BUILDING_WINDMILL</Type>
 			<BuildingClass>BUILDINGCLASS_WINDMILL</BuildingClass>
@@ -413,6 +464,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>38</PortraitIndex>
 		</Row>
+		-->
+		<!--花园-->
 		<Row>
 			<Type>BUILDING_GARDEN</Type>
 			<BuildingClass>BUILDINGCLASS_GARDEN</BuildingClass>
@@ -433,17 +486,18 @@
 			<PortraitIndex>24</PortraitIndex>
 		</Row>
 		<!-- Normal Buildings -->
+		<!--垂钓部-->
 		<Row>
-			<Type>BUILDING_LIGHTHOUSE</Type>
+			<Type>BUILDING_FISHING_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_LIGHTHOUSE</BuildingClass>
 			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
 			<Cost>75</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_OPTICS</PrereqTech>
-			<Help>TXT_KEY_BUILDING_LIGHTHOUSE_HELP</Help>
-			<Description>TXT_KEY_BUILDING_LIGHTHOUSE</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_LIGHTHOUSE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_LIGHTHOUSE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_FISHING_ASSOCIATION_HELP</Help>
+			<Description>TXT_KEY_BUILDING_FISHING_ASSOCIATION</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FISHING_ASSOCIATION_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FISHING_ASSOCIATION_STRATEGY</Strategy>
 			<ArtDefineTag>LIGHTHOUSE</ArtDefineTag>
 			<Water>true</Water>
 			<MinAreaSize>10</MinAreaSize>
@@ -454,16 +508,17 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>36</PortraitIndex>
 		</Row>
+		<!--航模社-->
 		<Row>
-			<Type>BUILDING_HARBOR</Type>
+			<Type>BUILDING_SHIPMODEL_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_HARBOR</BuildingClass>
 			<Cost>120</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_COMPASS</PrereqTech>
-			<Help>TXT_KEY_BUILDING_HARBOR_HELP</Help>
-			<Description>TXT_KEY_BUILDING_HARBOR</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HARBOR_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_HARBOR_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SHIPMODEL_ASSOCIATION_HELP</Help>
+			<Description>TXT_KEY_BUILDING_SHIPMODEL_ASSOCIATION</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SHIPMODEL_ASSOCIATION_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SHIPMODEL_ASSOCIATION_STRATEGY</Strategy>
 			<ArtDefineTag>HARBOR</ArtDefineTag>
 			<Water>true</Water>
 			<AllowsWaterRoutes>true</AllowsWaterRoutes>
@@ -475,17 +530,18 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>26</PortraitIndex>
 		</Row>
+		<!--操场-->
 		<Row>
-			<Type>BUILDING_COLOSSEUM</Type>
+			<Type>BUILDING_PLAYGROUND</Type>
 			<BuildingClass>BUILDINGCLASS_COLOSSEUM</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<Cost>100</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
-			<Help>TXT_KEY_BUILDING_COLOSSEUM_STRATEGY</Help>
-			<Description>TXT_KEY_BUILDING_COLOSSEUM</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_COLISEUM_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_COLOSSEUM_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_PLAYGROUND_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_PLAYGROUND</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PLAYGROUND_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PLAYGROUND_STRATEGY</Strategy>
 			<ArtDefineTag>COLESSEUM</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -496,6 +552,7 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>23</PortraitIndex>
 		</Row>
+		<!--
 		<Row>
 			<Type>BUILDING_THEATRE</Type>
 			<BuildingClass>BUILDINGCLASS_THEATRE</BuildingClass>
@@ -515,16 +572,18 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>20</PortraitIndex>
 		</Row>
+		-->
+		<!--游戏中心-->
 		<Row>
-			<Type>BUILDING_STADIUM</Type>
+			<Type>BUILDING_GAME_CENTRE</Type>
 			<BuildingClass>BUILDINGCLASS_STADIUM</BuildingClass>
 			<Cost>500</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
-			<Help>TXT_KEY_BUILDING_STADIUM_HELP</Help>
-			<Description>TXT_KEY_BUILDING_STADIUM_DESC</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STADIUM_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_STADIUM_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_GAME_CENTRE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_GAME_CENTRE_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GAME_CENTRE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_GAME_CENTRE_STRATEGY</Strategy>
 			<ArtDefineTag>STADIUM</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -535,16 +594,17 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>25</PortraitIndex>
 		</Row>
+		<!--文学社-->
 		<Row>
-			<Type>BUILDING_MONUMENT</Type>
+			<Type>BUILDING_LITERARY_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
 			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
 			<Cost>40</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<Help>TXT_KEY_BUILDING_MONUMENT_STRATEGY</Help>
-			<Description>TXT_KEY_BUILDING_MONUMENT_DESC</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MONUMENT_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_MONUMENT_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_LITERARY_ASSOCIATION_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_LITERARY_ASSOCIATION_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LITERARY_ASSOCIATION_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_LITERARY_ASSOCIATION_STRATEGY</Strategy>
 			<ArtDefineTag>MONUMENT</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<Culture>2</Culture>
@@ -553,6 +613,7 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>21</PortraitIndex>
 		</Row>
+		<!--
 		<Row>
 			<Type>BUILDING_TEMPLE</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
@@ -573,15 +634,17 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>37</PortraitIndex>
 		</Row>
+		-->
+		<!--合唱部-->
 		<Row>
-			<Type>BUILDING_OPERA_HOUSE</Type>
+			<Type>BUILDING_CHORUS_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_OPERA_HOUSE</BuildingClass>
 			<Cost>200</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
-			<Description>TXT_KEY_BUILDING_OPERA_HOUSE</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_OPERA_HOUSE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_OPERA_HOUSE_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_CHORUS_ASSOCIATION</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CHORUS_ASSOCIATION_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CHORUS_ASSOCIATION_STRATEGY</Strategy>
 			<ArtDefineTag>OPERA_HOUSE</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
@@ -592,15 +655,16 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>49</PortraitIndex>
 		</Row>
+		<!--歌剧社-->
 		<Row>
-			<Type>BUILDING_MUSEUM</Type>
+			<Type>BUILDING_OPERA_CLUB</Type>
 			<BuildingClass>BUILDINGCLASS_MUSEUM</BuildingClass>
 			<Cost>300</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech>
-			<Description>TXT_KEY_BUILDING_MUSEUM</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MUSEUM_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_MUSEUM_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_OPERA_CLUB</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_OPERA_CLUB_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_OPERA_CLUB_STRATEGY</Strategy>
 			<ArtDefineTag>MUSEUM</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
@@ -611,16 +675,17 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>22</PortraitIndex>
 		</Row>
+		<!--轻音部-->
 		<Row>
-			<Type>BUILDING_BROADCAST_TOWER</Type>
+			<Type>BUILDING_K_ON</Type>
 			<BuildingClass>BUILDINGCLASS_BROADCAST_TOWER</BuildingClass>
 			<Cost>500</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_RADIO</PrereqTech>
-			<Help>TXT_KEY_BUILDING_BROADCAST_TOWER_HELP</Help>
-			<Description>TXT_KEY_BUILDING_BROADCAST_TOWER</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BROADCASTTOWER_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_BROADCAST_TOWER_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_K_ON_HELP</Help>
+			<Description>TXT_KEY_BUILDING_K_ON</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_K_ON_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_K_ON_STRATEGY</Strategy>
 			<ArtDefineTag>RADIO TOWER</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<Culture>3</Culture>
@@ -631,17 +696,18 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>35</PortraitIndex>
 		</Row>
+		<!--田径部-->
 		<Row>
-			<Type>BUILDING_BARRACKS</Type>
+			<Type>BUILDING_ATHLETICS_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<Cost>75</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-			<Help>TXT_KEY_BUILDING_BARRACKS_HELP</Help>
-			<Description>TXT_KEY_BUILDING_BARRACKS</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BARRACKS_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_BARRACKS_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_ATHLETICS_ASSOCIATION_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ATHLETICS_ASSOCIATION</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ATHLETICS_ASSOCIATION_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ATHLETICS_ASSOCIATION_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -649,16 +715,17 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>5</PortraitIndex>
 		</Row>
+		<!--篮球部-->
 		<Row>
-			<Type>BUILDING_ARMORY</Type>
+			<Type>BUILDING_BASKETBALL_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_ARMORY</BuildingClass>
 			<Cost>160</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
-			<Help>TXT_KEY_BUILDING_ARMORY_HELP</Help>
-			<Description>TXT_KEY_BUILDING_ARMORY</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ARMORY_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_ARMORY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_BASKETBALL_ASSOCIATION_HELP</Help>
+			<Description>TXT_KEY_BUILDING_BASKETBALL_ASSOCIATION</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BASKETBALL_ASSOCIATION_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BASKETBALL_ASSOCIATION_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -666,6 +733,7 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>6</PortraitIndex>
 		</Row>
+		<!--
 		<Row>
 			<Type>BUILDING_MILITARY_ACADEMY</Type>
 			<BuildingClass>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClass>
@@ -683,15 +751,17 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>8</PortraitIndex>
 		</Row>
+		-->
+		<!--保卫处-->
 		<Row>
-			<Type>BUILDING_ARSENAL</Type>
+			<Type>BUILDING_SECURITY_OFFICE</Type>
 			<BuildingClass>BUILDINGCLASS_ARSENAL</BuildingClass>
 			<Cost>300</Cost>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
-			<Help>TXT_KEY_BUILDING_ARSENAL_HELP</Help>
-			<Description>TXT_KEY_BUILDING_ARSENAL</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ARSENAL_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_ARSENAL_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SECURITY_OFFICE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_SECURITY_OFFICE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SECURITY_OFFICE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SECURITY_OFFICE_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_MILITARY_ACADEMY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
@@ -701,15 +771,16 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>9</PortraitIndex>
 		</Row>
+		<!--围墙-->
 		<Row>
-			<Type>BUILDING_WALLS</Type>
-			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
+			<Type>BUILDING_WALL</Type>
+			<BuildingClass>BUILDINGCLASS_WALL</BuildingClass>
 			<Cost>75</Cost>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
-			<Help>TXT_KEY_BUILDING_WALLS_STRATEGY</Help>
-			<Description>TXT_KEY_BUILDING_WALLS</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WALLS_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_WALLS_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_WALL_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_WALL</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WALL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_WALL_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
@@ -720,15 +791,16 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>32</PortraitIndex>
 		</Row>
+		<!--宿管会-->
 		<Row>
-			<Type>BUILDING_CASTLE</Type>
+			<Type>BUILDING_DORM_COUSIL</Type>
 			<BuildingClass>BUILDINGCLASS_CASTLE</BuildingClass>
 			<Cost>160</Cost>
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
-			<Help>TXT_KEY_BUILDING_CASTLE_HELP</Help>
-			<Description>TXT_KEY_BUILDING_CASTLE</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CASTLE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CASTLE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_DORM_COUSIL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_DORM_COUSIL</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_DORM_COUSIL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_DORM_COUSIL_STRATEGY</Strategy>
 			<ArtDefineTag>CASTLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
@@ -740,15 +812,16 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>33</PortraitIndex>
 		</Row>
+		<!--警察局-->
 		<Row>
-			<Type>BUILDING_MILITARY_BASE</Type>
+			<Type>BUILDING_POLICE_STATION</Type>
 			<BuildingClass>BUILDINGCLASS_MILITARY_BASE</BuildingClass>
 			<Cost>500</Cost>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
-			<Help>TXT_KEY_BUILDING_MILITARY_BASE_HELP</Help>
-			<Description>TXT_KEY_BUILDING_MILITARY_BASE</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MILITARYBASE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_MILITARY_BASE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_POLICE_STATION_HELP</Help>
+			<Description>TXT_KEY_BUILDING_POLICE_STATION</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_POLICE_STATION_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_POLICE_STATION_STRATEGY</Strategy>
 			<ArtDefineTag>MILITARY BASE</ArtDefineTag>
 			<NukeImmune>true</NukeImmune>
 			<MinAreaSize>-1</MinAreaSize>
@@ -761,17 +834,18 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>10</PortraitIndex>
 		</Row>
+		<!--小卖部-->
 		<Row>
-			<Type>BUILDING_GRANARY</Type>
+			<Type>BUILDING_BUFFET</Type>
 			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
 			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
 			<Cost>60</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_POTTERY</PrereqTech>
-			<Help>TXT_KEY_BUILDING_GRANARY_HELP</Help>
-			<Description>TXT_KEY_BUILDING_GRANARY</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GRANARY_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_GRANARY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_BUFFET_HELP</Help>
+			<Description>TXT_KEY_BUILDING_BUFFET</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BUFFET_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BUFFET_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
@@ -779,16 +853,17 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
+		<!--食堂-->
 		<Row>
-			<Type>BUILDING_HOSPITAL</Type>
+			<Type>BUILDING_DINNING_HALL</Type>
 			<BuildingClass>BUILDINGCLASS_HOSPITAL</BuildingClass>
 			<Cost>360</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_BIOLOGY</PrereqTech>
-			<Help>TXT_KEY_BUILDING_HOSPITAL_STRATEGY</Help>
-			<Description>TXT_KEY_BUILDING_HOSPITAL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HOSPITAL_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_HOSPITAL_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_DINNING_HALL_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_DINNING_HALL</Description>
+			<Civilopedia>TXT_KEY_BUILDING_DINNING_HALL_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_DINNING_HALL_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_HOSPITAL</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
@@ -796,16 +871,17 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>45</PortraitIndex>
 		</Row>
+		<!--园艺社-->
 		<Row>
-			<Type>BUILDING_MEDICAL_LAB</Type>
+			<Type>BUILDING_GARDENING_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_MEDICAL_LAB</BuildingClass>
 			<Cost>500</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_PENICILIN</PrereqTech>
-			<Help>TXT_KEY_BUILDING_MEDICAL_LAB_HELP</Help>
-			<Description>TXT_KEY_BUILDING_MEDICAL_LAB</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEDICAL_LAB_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_MEDICAL_LAB_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_GARDENING_ASSOCIATION_HELP</Help>
+			<Description>TXT_KEY_BUILDING_GARDENING_ASSOCIATION</Description>
+			<Civilopedia>TXT_KEY_BUILDING_GARDENING_ASSOCIATION_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_GARDENING_ASSOCIATION_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_MEDICAL_LAB</ArtDefineTag>
 			<FoodKept>25</FoodKept>
 			<MinAreaSize>-1</MinAreaSize>
@@ -814,17 +890,18 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>62</PortraitIndex>
 		</Row>
+		<!--手工部-->
 		<Row>
-			<Type>BUILDING_WORKSHOP</Type>
+			<Type>BUILDING_HANDWORK_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_WORKSHOP</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<Cost>120</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
-			<Help>TXT_KEY_BUILDING_WORKSHOP_STRATEGY</Help>
-			<Description>TXT_KEY_BUILDING_WORKSHOP</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WORKSHOP_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_WORKSHOP_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_HANDWORK_ASSOCIATION_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_HANDWORK_ASSOCIATION</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_HANDWORK_ASSOCIATION_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HANDWORK_ASSOCIATION_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
@@ -834,16 +911,17 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 		</Row>
+		<!--工程会-->
 		<Row>
-			<Type>BUILDING_FACTORY</Type>
+			<Type>BUILDING_ENGINEERING_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass>
 			<Cost>360</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
-			<Help>TXT_KEY_BUILDING_FACTORY_HELP</Help>
-			<Description>TXT_KEY_BUILDING_FACTORY</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FACTORY_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_FACTORY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_ENGINEERING_ASSOCIATION_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ENGINEERING_ASSOCIATION</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ENGINEERING_ASSOCIATION_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ENGINEERING_ASSOCIATION_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FACTORY</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
@@ -853,6 +931,7 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
 		</Row>
+		<!--
 		<Row>
 			<Type>BUILDING_NUCLEAR_PLANT</Type>
 			<BuildingClass>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClass>
@@ -889,16 +968,18 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>54</PortraitIndex>
 		</Row>
+		-->
+		<!--商店-->
 		<Row>
-			<Type>BUILDING_MARKET</Type>
+			<Type>BUILDING_SHOP</Type>
 			<BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<Cost>120</Cost>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
-			<Help>TXT_KEY_BUILDING_MARKET_STRATEGY</Help>
-			<Description>TXT_KEY_BUILDING_MARKET</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MARKET_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_MARKET_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SHOP_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_SHOP</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SHOP_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SHOP_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_MARKET</ArtDefineTag>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
@@ -908,16 +989,17 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
 		</Row>
+		<!--超市-->
 		<Row>
-			<Type>BUILDING_BANK</Type>
+			<Type>BUILDING_SUPERMARKET</Type>
 			<BuildingClass>BUILDINGCLASS_BANK</BuildingClass>
 			<FreeStartEra>ERA_FUTURE</FreeStartEra>
 			<Cost>200</Cost>
 			<PrereqTech>TECH_BANKING</PrereqTech>
-			<Help>TXT_KEY_BUILDING_BANK_HELP</Help>
-			<Description>TXT_KEY_BUILDING_BANK</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BANK_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_CIV5_BUILDINGS_BANK_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SUPERMARKET_HELP</Help>
+			<Description>TXT_KEY_BUILDING_SUPERMARKET</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SUPERMARKET_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_CIV5_BUILDINGS_SUPERMARKET_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
@@ -927,16 +1009,17 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>18</PortraitIndex>
 		</Row>
+		<!--商业街-->
 		<Row>
-			<Type>BUILDING_STOCK_EXCHANGE</Type>
+			<Type>BUILDING_COMMERCIAL_STREET</Type>
 			<BuildingClass>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClass>
 			<Cost>500</Cost>
 			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
-			<Help>TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP</Help>
-			<Description>TXT_KEY_BUILDING_STOCK_EXCHANGE</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STOCK_EXCHANGE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_CIV5_BUILDINGS_STOCK_EXCHANGE_STRATEGY</Strategy>
-			<ArtDefineTag>ART_DEF_BUILDING_STOCK_EXCHANGE</ArtDefineTag>
+			<Help>TXT_KEY_BUILDING_COMMERCIAL_STREET_HELP</Help>
+			<Description>TXT_KEY_BUILDING_COMMERCIAL_STREET</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_COMMERCIAL_STREET_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_CIV5_BUILDINGS_COMMERCIAL_STREET_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_COMMERCIAL_STREET</ArtDefineTag>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
@@ -945,17 +1028,18 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>56</PortraitIndex>
 		</Row>
+		<!--自习室-->
 		<Row>
-			<Type>BUILDING_LIBRARY</Type>
+			<Type>BUILDING_STUDY_ROOM</Type>
 			<BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<Cost>75</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_WRITING</PrereqTech>
-			<Help>TXT_KEY_BUILDING_LIBRARY_HELP</Help>
-			<Description>TXT_KEY_BUILDING_LIBRARY</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_LIBRARY_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_LIBRARY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_STUDY_ROOM_HELP</Help>
+			<Description>TXT_KEY_BUILDING_STUDY_ROOM</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STUDY_ROOM_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_STUDY_ROOM_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_LIBRARY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
@@ -963,16 +1047,17 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
 		</Row>
+		<!--学校图书馆-->
 		<Row>
-			<Type>BUILDING_UNIVERSITY</Type>
+			<Type>BUILDING_SCHOOL_LIBRARY</Type>
 			<BuildingClass>BUILDINGCLASS_UNIVERSITY</BuildingClass>
 			<Cost>160</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
-			<Help>TXT_KEY_BUILDING_UNIVERSITY_HELP</Help>
-			<Description>TXT_KEY_BUILDING_UNIVERSITY</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_UNIVERSITY_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_UNIVERSITY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SCHOOL_LIBRARY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_SCHOOL_LIBRARY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SCHOOL_LIBRARY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SCHOOL_LIBRARY_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY</ArtDefineTag>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
@@ -982,16 +1067,17 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>13</PortraitIndex>
 		</Row>
+		<!--多媒体教室-->
 		<Row>
-			<Type>BUILDING_PUBLIC_SCHOOL</Type>
+			<Type>BUILDING_MEDIA_CLASSROOM</Type>
 			<BuildingClass>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClass>
 			<Cost>300</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
-			<Help>TXT_KEY_BUILDING_PUBLIC_SCHOOL_HELP</Help>
-			<Description>TXT_KEY_BUILDING_PUBLIC_SCHOOL</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PUBLIC_SCHOOL_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_PUBLIC_SCHOOL_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_MEDIA_CLASSROOM_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MEDIA_CLASSROOM</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MEDIA_CLASSROOM_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MEDIA_CLASSROOM_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_PUBLIC_SCHOOL</ArtDefineTag>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
@@ -1001,16 +1087,17 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>14</PortraitIndex>
 		</Row>
+		<!--实验室-->
 		<Row>
-			<Type>BUILDING_LABORATORY</Type>
+			<Type>BUILDING_LAB</Type>
 			<BuildingClass>BUILDINGCLASS_LABORATORY</BuildingClass>
 			<Cost>500</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_PLASTIC</PrereqTech>
-			<Help>TXT_KEY_BUILDING_LABORATORY_HELP</Help>
-			<Description>TXT_KEY_BUILDING_LABORATORY</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_RESEARCHLAB_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_LABORATORY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_LAB_HELP</Help>
+			<Description>TXT_KEY_BUILDING_LAB</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_LAB_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_LAB_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
@@ -1946,19 +2033,21 @@
 	</Buildings>
 	<Building_ClassesNeededInCity>
 		<Row>
-			<BuildingType>BUILDING_ARMORY</BuildingType>
+			<BuildingType>BUILDING_BASKETBALL_ASSOCIATION</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_ARSENAL</BuildingType>
+			<BuildingType>BUILDING_SECURITY_OFFICE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CASTLE</BuildingType>
+			<BuildingType>BUILDING_DORM_COUSIL</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
 		</Row>
 		<Row>
@@ -1966,25 +2055,28 @@
 			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MILITARY_BASE</BuildingType>
+			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_THEATRE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_STADIUM</BuildingType>
+			<BuildingType>BUILDING_GAME_CENTRE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MEDICAL_LAB</BuildingType>
+			<BuildingType>BUILDING_GARDENING_ASSOCIATION</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<BuildingType>BUILDING_ENGINEERING_ASSOCIATION</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_SOLAR_PLANT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
@@ -1997,12 +2089,13 @@
 			<BuildingType>BUILDING_SPACESHIP_FACTORY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_BANK</BuildingType>
+			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+			<BuildingType>BUILDING_COMMERCIAL_STREET</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
 		</Row>
 		<Row>
@@ -2010,7 +2103,7 @@
 			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<BuildingType>BUILDING_SCHOOL_LIBRARY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 		</Row>
 		<Row>
@@ -2018,31 +2111,33 @@
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
+			<BuildingType>BUILDING_MEDIA_CLASSROOM</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LABORATORY</BuildingType>
+			<BuildingType>BUILDING_LAB</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_TEMPLE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_OPERA_HOUSE</BuildingType>
+			<BuildingType>BUILDING_CHORUS_ASSOCIATION</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<BuildingType>BUILDING_OPERA_CLUB</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<BuildingType>BUILDING_K_ON</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
 		</Row>
 		<Row>
@@ -2078,13 +2173,15 @@
 			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HOSPITAL</BuildingType>
+			<BuildingType>BUILDING_DINNING_HALL</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
 		</Row>
+		-->
 	</Building_ClassesNeededInCity>
 	<Building_FreeUnits>
 		<Row>
@@ -2110,35 +2207,36 @@
 	</Building_FreeUnits>
 	<Building_DomainFreeExperiences>
 		<Row>
-			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<BuildingType>BUILDING_ATHLETICS_ASSOCIATION</BuildingType>
 			<DomainType>DOMAIN_LAND</DomainType>
 			<Experience>15</Experience>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<BuildingType>BUILDING_ATHLETICS_ASSOCIATION</BuildingType>
 			<DomainType>DOMAIN_SEA</DomainType>
 			<Experience>15</Experience>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<BuildingType>BUILDING_ATHLETICS_ASSOCIATION</BuildingType>
 			<DomainType>DOMAIN_AIR</DomainType>
 			<Experience>15</Experience>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ARMORY</BuildingType>
+			<BuildingType>BUILDING_BASKETBALL_ASSOCIATION</BuildingType>
 			<DomainType>DOMAIN_LAND</DomainType>
 			<Experience>15</Experience>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ARMORY</BuildingType>
+			<BuildingType>BUILDING_BASKETBALL_ASSOCIATION</BuildingType>
 			<DomainType>DOMAIN_SEA</DomainType>
 			<Experience>15</Experience>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ARMORY</BuildingType>
+			<BuildingType>BUILDING_BASKETBALL_ASSOCIATION</BuildingType>
 			<DomainType>DOMAIN_AIR</DomainType>
 			<Experience>15</Experience>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
 			<DomainType>DOMAIN_LAND</DomainType>
@@ -2154,6 +2252,7 @@
 			<DomainType>DOMAIN_AIR</DomainType>
 			<Experience>15</Experience>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_KREPOST</BuildingType>
 			<DomainType>DOMAIN_LAND</DomainType>
@@ -2172,12 +2271,12 @@
 	</Building_DomainFreeExperiences>
 	<Building_DomainProductionModifiers>
 		<Row>
-			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<BuildingType>BUILDING_SHIPMODEL_ASSOCIATION</BuildingType>
 			<DomainType>DOMAIN_SEA</DomainType>
 			<Modifier>15</Modifier>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_FORGE</BuildingType>
+			<BuildingType>BUILDING_EQUIPMENT_ROOM</BuildingType>
 			<DomainType>DOMAIN_LAND</DomainType>
 			<Modifier>15</Modifier>
 		</Row>
@@ -2204,27 +2303,27 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<BuildingType>BUILDING_FISHING_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<BuildingType>BUILDING_FISHING_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<BuildingType>BUILDING_FISHING_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<BuildingType>BUILDING_FISHING_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<BuildingType>BUILDING_FISHING_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
@@ -2249,51 +2348,53 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<BuildingType>BUILDING_SHIPMODEL_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>16</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<BuildingType>BUILDING_SHIPMODEL_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
 			<Flavor>40</Flavor>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>40</Flavor>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<BuildingType>BUILDING_ATHLETICS_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ARMORY</BuildingType>
+			<BuildingType>BUILDING_BASKETBALL_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
+			<BuildingType>BUILDING_MACHINARY_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
+			<BuildingType>BUILDING_MACHINARY_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
+			<BuildingType>BUILDING_MACHINARY_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
-		<!--
 		<Row>
 			<BuildingType>BUILDING_ARSENAL</BuildingType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -2310,17 +2411,17 @@
 			<Flavor>10</Flavor>
 		</Row>	-->
 		<Row>
-			<BuildingType>BUILDING_ARSENAL</BuildingType>
+			<BuildingType>BUILDING_SECURITY_OFFICE</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_WALLS</BuildingType>
+			<BuildingType>BUILDING_WALL</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CASTLE</BuildingType>
+			<BuildingType>BUILDING_DORM_COUSIL</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
@@ -2330,22 +2431,22 @@
 			<Flavor>50</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MILITARY_BASE</BuildingType>
+			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<BuildingType>BUILDING_BUFFET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>18</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<BuildingType>BUILDING_BUFFET</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<BuildingType>BUILDING_BUFFET</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
@@ -2359,6 +2460,7 @@
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_WATERMILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2374,31 +2476,33 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_HOSPITAL</BuildingType>
+			<BuildingType>BUILDING_DINNING_HALL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MEDICAL_LAB</BuildingType>
+			<BuildingType>BUILDING_GARDENING_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>40</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
+			<BuildingType>BUILDING_PLAYGROUND</BuildingType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
+			<BuildingType>BUILDING_PLAYGROUND</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>3</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
+			<BuildingType>BUILDING_PLAYGROUND</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_CIRCUS</BuildingType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
@@ -2429,33 +2533,34 @@
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>24</Flavor>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_STADIUM</BuildingType>
+			<BuildingType>BUILDING_GAME_CENTRE</BuildingType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STADIUM</BuildingType>
+			<BuildingType>BUILDING_GAME_CENTRE</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STADIUM</BuildingType>
+			<BuildingType>BUILDING_GAME_CENTRE</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COURTHOUSE</BuildingType>
+			<BuildingType>BUILDING_PARENT_COMMITTEE</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>75</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<BuildingType>BUILDING_HANDWORK_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<BuildingType>BUILDING_HANDWORK_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
@@ -2470,15 +2575,16 @@
 			<Flavor>50</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_FORGE</BuildingType>
+			<BuildingType>BUILDING_EQUIPMENT_ROOM</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_FORGE</BuildingType>
+			<BuildingType>BUILDING_EQUIPMENT_ROOM</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_WINDMILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2489,16 +2595,18 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<BuildingType>BUILDING_ENGINEERING_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<BuildingType>BUILDING_ENGINEERING_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>100</Flavor>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2539,8 +2647,9 @@
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_MARKET</BuildingType>
+			<BuildingType>BUILDING_SHOP</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
@@ -2549,13 +2658,15 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_MINT</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>100</Flavor>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_BANK</BuildingType>
+			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
@@ -2570,17 +2681,17 @@
 			<Flavor>30</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+			<BuildingType>BUILDING_COMMERCIAL_STREET</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>40</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<BuildingType>BUILDING_STUDY_ROOM</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<BuildingType>BUILDING_STUDY_ROOM</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
@@ -2600,10 +2711,11 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<BuildingType>BUILDING_SCHOOL_LIBRARY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_OBSERVATORY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -2614,46 +2726,49 @@
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
+			<BuildingType>BUILDING_MEDIA_CLASSROOM</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
+			<BuildingType>BUILDING_MEDIA_CLASSROOM</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
+			<BuildingType>BUILDING_MEDIA_CLASSROOM</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
+			<BuildingType>BUILDING_MEDIA_CLASSROOM</BuildingType>
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LABORATORY</BuildingType>
+			<BuildingType>BUILDING_LAB</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LABORATORY</BuildingType>
+			<BuildingType>BUILDING_LAB</BuildingType>
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MONUMENT</BuildingType>
+			<BuildingType>BUILDING_LITERARY_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_TEMPLE</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
@@ -2679,23 +2794,25 @@
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_MONASTERY</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_OPERA_HOUSE</BuildingType>
+			<BuildingType>BUILDING_CHORUS_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<BuildingType>BUILDING_OPERA_CLUB</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>40</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<BuildingType>BUILDING_K_ON</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
@@ -3154,23 +3271,24 @@
 	</Building_HurryModifiers>
 	<Building_LocalResourceAnds>
 		<Row>
-			<BuildingType>BUILDING_FORGE</BuildingType>
+			<BuildingType>BUILDING_EQUIPMENT_ROOM</BuildingType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
 		</Row>
 	</Building_LocalResourceAnds>
 	<Building_LocalResourceOrs>
 		<Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
+			<BuildingType>BUILDING_MACHINARY_ASSOCIATION</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
+			<BuildingType>BUILDING_MACHINARY_ASSOCIATION</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
+			<BuildingType>BUILDING_MACHINARY_ASSOCIATION</BuildingType>
 			<ResourceType>RESOURCE_COW</ResourceType>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_MINT</BuildingType>
 			<ResourceType>RESOURCE_GOLD</ResourceType>
@@ -3195,6 +3313,7 @@
 			<BuildingType>BUILDING_CIRCUS</BuildingType>
 			<ResourceType>RESOURCE_IVORY</ResourceType>
 		</Row>
+		-->
 		<!--<Row>
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -3259,16 +3378,19 @@
 		</Row>
 	</Building_PrereqBuildingClasses>
 	<Building_ResourceQuantityRequirements>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 			<Cost>1</Cost>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<BuildingType>BUILDING_ENGINEERING_ASSOCIATION</BuildingType>
 			<ResourceType>RESOURCE_COAL</ResourceType>
 			<Cost>1</Cost>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
@@ -3279,8 +3401,10 @@
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 			<Cost>1</Cost>
 		</Row>
+		-->
 	</Building_ResourceQuantityRequirements>
 	<Building_ResourceCultureChanges>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_MONASTERY</BuildingType>
 			<ResourceType>RESOURCE_INCENSE</ResourceType>
@@ -3291,17 +3415,20 @@
 			<ResourceType>RESOURCE_WINE</ResourceType>
 			<CultureChange>2</CultureChange>
 		</Row>
+		-->
 	</Building_ResourceCultureChanges>
 	<Building_RiverPlotYieldChanges>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		-->
 	</Building_RiverPlotYieldChanges>
 	<Building_SeaPlotYieldChanges>
 		<Row>
-			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<BuildingType>BUILDING_FISHING_ASSOCIATION</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -3319,18 +3446,21 @@
 		</Row>
 	</Building_LakePlotYieldChanges>
 	<Building_SeaResourceYieldChanges>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<BuildingType>BUILDING_SHIPMODEL_ASSOCIATION</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Building_SeaResourceYieldChanges>
 	<Building_ResourceYieldChanges>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_MINT</BuildingType>
 			<ResourceType>RESOURCE_GOLD</ResourceType>
@@ -3343,50 +3473,51 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<BuildingType>BUILDING_BUFFET</BuildingType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
+			<BuildingType>BUILDING_MACHINARY_ASSOCIATION</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<BuildingType>BUILDING_BUFFET</BuildingType>
 			<ResourceType>RESOURCE_BANANA</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
+			<BuildingType>BUILDING_MACHINARY_ASSOCIATION</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<BuildingType>BUILDING_BUFFET</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
+			<BuildingType>BUILDING_MACHINARY_ASSOCIATION</BuildingType>
 			<ResourceType>RESOURCE_COW</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<BuildingType>BUILDING_FISHING_ASSOCIATION</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_FORGE</BuildingType>
+			<BuildingType>BUILDING_EQUIPMENT_ROOM</BuildingType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
@@ -3412,7 +3543,7 @@
 	</Building_ResourceYieldChanges>
 	<Building_FeatureYieldChanges>
 		<Row>
-			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<BuildingType>BUILDING_SCHOOL_LIBRARY</BuildingType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
@@ -3438,7 +3569,7 @@
 	</Building_FeatureYieldChanges>
 	<Building_UnitCombatProductionModifiers>
 		<Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
+			<BuildingType>BUILDING_MACHINARY_ASSOCIATION</BuildingType>
 			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 			<Modifier>15</Modifier>
 		</Row>
@@ -3465,10 +3596,11 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<BuildingType>BUILDING_BUFFET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_WATERMILL</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -3484,6 +3616,7 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -3520,7 +3653,7 @@
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MARKET</BuildingType>
+			<BuildingType>BUILDING_SHOP</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
@@ -3535,7 +3668,7 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<BuildingType>BUILDING_HANDWORK_ASSOCIATION</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
@@ -3545,10 +3678,11 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<BuildingType>BUILDING_ENGINEERING_ASSOCIATION</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>4</Yield>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_SOLAR_PLANT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -3559,18 +3693,19 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>5</Yield>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_HOSPITAL</BuildingType>
+			<BuildingType>BUILDING_DINNING_HALL</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>5</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
+			<BuildingType>BUILDING_MEDIA_CLASSROOM</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LABORATORY</BuildingType>
+			<BuildingType>BUILDING_LAB</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>4</Yield>
 		</Row>
@@ -3634,12 +3769,12 @@
 	</Building_SpecialistYieldChanges>
 	<Building_YieldChangesPerPop>
 		<Row>
-			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<BuildingType>BUILDING_STUDY_ROOM</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>50</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
+			<BuildingType>BUILDING_MEDIA_CLASSROOM</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>50</Yield>
 		</Row>
@@ -3663,15 +3798,16 @@
 			<Yield>15</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<BuildingType>BUILDING_HANDWORK_ASSOCIATION</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>10</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<BuildingType>BUILDING_ENGINEERING_ASSOCIATION</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>10</Yield>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_SOLAR_PLANT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -3682,8 +3818,9 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>15</Yield>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_MARKET</BuildingType>
+			<BuildingType>BUILDING_SHOP</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>25</Yield>
 		</Row>
@@ -3698,27 +3835,29 @@
 			<Yield>25</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_BANK</BuildingType>
+			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>25</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+			<BuildingType>BUILDING_COMMERCIAL_STREET</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>33</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<BuildingType>BUILDING_SCHOOL_LIBRARY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>33</Yield>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_OBSERVATORY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>50</Yield>
 		</Row>
+		-->
 		<Row>
-			<BuildingType>BUILDING_LABORATORY</BuildingType>
+			<BuildingType>BUILDING_LAB</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>50</Yield>
 		</Row>
