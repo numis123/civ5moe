@@ -366,6 +366,33 @@
 			<LeaderheadType>LEADER_KUROKO</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
+	<Civilization_BuildingClassOverrides>
+	<Row>
+		<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
+		<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+		<BuildingType>BUILDING_DRAMA_CLUB</BuildingType>
+	</Row>
+	<Row>
+		<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
+		<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+		<BuildingType>BUILDING_FURUKAWA_PAN</BuildingType>
+	</Row>
+	<Row>
+		<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
+		<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+		<BuildingType>BUILDING_TOE_LAB</BuildingType>
+	</Row>
+	<Row>
+		<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
+		<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		<BuildingType>BUILDING_HIKARIZAKA_SEITOKAI</BuildingType>
+	</Row>
+	<Row>
+		<CivilizationType>CIVILIZATION_FUKO</CivilizationType>
+		<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+		<BuildingType>BUILDING_STARFISH_WORKSHOP</BuildingType>
+	</Row>
+	</Civilization_BuildingClassOverrides>
 	<!-- 各文明出生点偏向，四选一，有优先级  -->
 	<!-- Coastal bias trumps River bias trumps Region Priority trumps Region Avoid  -->
 	<Civilization_Start_Region_Priority>
