@@ -392,6 +392,16 @@
 		<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
 		<BuildingType>BUILDING_STARFISH_WORKSHOP</BuildingType>
 	</Row>
+	<Row>
+		<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
+		<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+		<BuildingType>BUILDING_SHIRYOUSHITSU</BuildingType>
+	</Row>
+	<Row>
+		<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
+		<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+		<BuildingType>BUILDING_JUDGEMENT</BuildingType>
+	</Row>
 	</Civilization_BuildingClassOverrides>
 	<!-- 各文明出生点偏向，四选一，有优先级  -->
 	<!-- Coastal bias trumps River bias trumps Region Priority trumps Region Avoid  -->
