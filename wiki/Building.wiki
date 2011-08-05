@@ -85,7 +85,7 @@
 
 保卫处：+？防御（Arsenal，Security Office)
 
-警察局：+？防御（Military Base，Police Station）
+学生会：+？防御（Military Base，Student Union）
 
 ——————————————————————————————
 
