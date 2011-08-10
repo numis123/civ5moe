@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/10/2011 1:16:22 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_KING_MIGHTY_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KING_MIGHTY_MORALE">
+			<Text>King mighty</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

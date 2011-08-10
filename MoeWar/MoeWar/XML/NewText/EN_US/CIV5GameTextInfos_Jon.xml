@@ -3,10 +3,10 @@
 <GameData>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_TRAIT_TALENTED_GIRL_SHORT">
-			<Text>TALENTED_GIRL</Text>
+			<Text>Talented girl</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TALENTED_GIRL">
-			<Text>National [ICON_SCIENCE]Science output is increased by 15%.</Text>
+			<Text>National [ICON_RESEARCH] Science output is increased by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_STARFISH_BLESSING">
 			<Text>[ICON_GOLDEN_AGE] Golden Ages last 100% longer.</Text>
@@ -21,13 +21,13 @@
 			<Text>Daughter of town</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TSUKKOMI">
-			<Text>+1 [ICON_CULTURE] Culture per turn from Cities, Cities [ICON_CULTURE]Culture output is increased by 15%.</Text>
+			<Text>+1 [ICON_CULTURE] Culture per turn from Cities, Cities [ICON_CULTURE] Culture output is increased by 15%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TSUKKOMI_SHORT">
 			<Text>Tsukkomi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_KING_MIGHTY">
-			<Text>All military units +15% [ICON_STRENGTH] Combat Strength.</Text>
+			<Text>All military units +10% [ICON_STRENGTH] Combat Strength.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_KING_MIGHTY_SHORT">
 			<Text>King mighty</Text>
