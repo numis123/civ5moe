@@ -39,7 +39,7 @@
 			<Text>Anego</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TELEPORT_SHORT">
-			<Text>TALENTED_GIRL</Text>
+			<Text>Teleport</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TELEPORT">
 			<Text>All military units ignore terrain cost.</Text>
