@@ -7,11 +7,6 @@
 			<Type>TRAIT_TALENTED_GIRL</Type>
 			<Description>TXT_KEY_TRAIT_TALENTED_GIRL</Description>
 			<ShortDescription>TXT_KEY_TRAIT_TALENTED_GIRL_SHORT</ShortDescription>
-			<Trait_YieldModifiers>
-				<TraitType>TRAIT_TALENTED_GIRL</TraitType>
-				<Yieldtype>YIELD_SCIENCE</Yieldtype>
-				<Yield>15</Yield>					
-			</Trait_YieldModifiers>
 		</Row>
 		<!-- 领袖风子的UA -->
 		<Row>
@@ -33,21 +28,12 @@
 			<Description>TXT_KEY_TRAIT_TSUKKOMI</Description>
 			<ShortDescription>TXT_KEY_TRAIT_TSUKKOMI_SHORT</ShortDescription>
 			<CityCultureBonus>1</CityCultureBonus>
-			<Trait_YieldModifiers>
-				<TraitType>TRAIT_TSUKKOMI</TraitType>
-				<Yieldtype>YIELD_CULTURE</Yieldtype>
-				<Yield>15</Yield>
-			</Trait_YieldModifiers>
 		</Row>
 		<!-- 领袖智代的UA -->
 		<Row>
 			<Type>TRAIT_KING_MIGHTY</Type>
 			<Description>TXT_KEY_TRAIT_KING_MIGHTY</Description>
 			<ShortDescription>TXT_KEY_TRAIT_KING_MIGHTY_SHORT</ShortDescription>
-			<Trait_FreePromotions>
-				<TraitType>TRAIT_KING_MIGHTY</TraitType>
-				<PromotionType>PROMOTION_MORALE</PromotionType>
-			</Trait_FreePromotions>
 		</Row>
 		<!-- 领袖有纪宁的UA -->
 		<Row>
@@ -56,15 +42,34 @@
 			<ShortDescription>TXT_KEY_TRAIT_ANEGO_SHORT</ShortDescription>
 			<CityStateBonusModifier>33</CityStateBonusModifier>
 		</Row>
-                <!-- 领袖黑子的UA -->
+        <!-- 领袖黑子的UA -->
 		<Row>
 			<Type>TRAIT_TELOPORT</Type>
 			<Description>TXT_KEY_TRAIT_TELEPORT</Description>
 	   		<ShortDescription>TXT_KEY_TRAIT_TELEPORT_SHORT</ShortDescription>
-			<Trait_FreePromotions>
-				<TraitType>TRAIT_TELEPORT</TraitType>
-				<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
-			</Trait_FreePromotions>
 		</Row>
 	</Traits>
+	<Trait_YieldModifiers>
+		<Row>
+			<TraitType>TRAIT_TALENTED_GIRL</TraitType>
+			<Yieldtype>YIELD_SCIENCE</Yieldtype>
+			<Yield>15</Yield>
+		</Row>
+		<!--文化无效果
+		<Row>
+			<TraitType>TRAIT_TSUKKOMI</TraitType>
+			<Yieldtype>YIELD_CULTURE</Yieldtype>
+			<Yield>15</Yield>
+		</Row>-->
+	</Trait_YieldModifiers>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_KING_MIGHTY</TraitType>
+			<PromotionType>PROMOTION_MORALE</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_TELEPORT</TraitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
 </GameData>

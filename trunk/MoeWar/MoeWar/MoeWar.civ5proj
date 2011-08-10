@@ -100,6 +100,16 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/Buildings/CIV5Buildings.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Units/CIV5UnitPromotions.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Units.xml</FileName>
+      </Action>
     </ModActions>
     <ModProperties />
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
@@ -122,6 +132,7 @@
     <Folder Include="XML\Interface" />
     <Folder Include="XML\Leaders" />
     <Folder Include="XML\Buildings" />
+    <Folder Include="XML\Units" />
     <Folder Include="XML\NewText" />
     <Folder Include="XML\NewText\EN_US" />
   </ItemGroup>
@@ -186,11 +197,19 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="XML\NewText\EN_US\CIV5GameTextInfos_Units.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="XML\NewText\EN_US\CIV5GameText_Cities.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\NewText\EN_US\CIV5GameTextInfos_Leaders.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Units\CIV5UnitPromotions.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
