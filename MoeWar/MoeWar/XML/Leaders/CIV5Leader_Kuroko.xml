@@ -229,7 +229,7 @@
 	<Leader_Traits>
 		<Row>
 			<LeaderType>LEADER_KUROKO</LeaderType>
-			<TraitType>TRAIT_CONVERTS_LAND_BARBARIANS</TraitType>
+			<TraitType>TRAIT_TELEPORT</TraitType>
 		</Row>
 	</Leader_Traits>
 </GameData>
