@@ -63,12 +63,96 @@
 		</Row>-->
 	</Trait_YieldModifiers>
 	<Trait_FreePromotionUnitCombats>
+		<!--智代特技-->
 		<Row>
 			<TraitType>TRAIT_KING_MIGHTY</TraitType>
-			<PromotionType>PROMOTION_MORALE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_KING_MIGHTY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_KING_MIGHTY</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_KING_MIGHTY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_KING_MIGHTY</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_KING_MIGHTY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_KING_MIGHTY</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_KING_MIGHTY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_KING_MIGHTY</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_KING_MIGHTY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_KING_MIGHTY</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_KING_MIGHTY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_KING_MIGHTY</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_KING_MIGHTY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_KING_MIGHTY</TraitType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<PromotionType>PROMOTION_KING_MIGHTY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_KING_MIGHTY</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<PromotionType>PROMOTION_KING_MIGHTY</PromotionType>
+		</Row>
+		<!--黑子特技-->
+		<Row>
+			<TraitType>TRAIT_TELEPORT</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_TELEPORT</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_TELEPORT</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_TELEPORT</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_TELEPORT</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_TELEPORT</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_TELEPORT</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_TELEPORT</TraitType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_TELEPORT</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
 		</Row>
 	</Trait_FreePromotionUnitCombats>
