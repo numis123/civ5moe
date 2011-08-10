@@ -5,7 +5,7 @@
 		<Row Tag="TXT_KEY_PROMOTION_KING_MIGHTY_HELP">
 			<Text>+10% [ICON_STRENGTH] Combat Strength</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_KING_MIGHTY_MORALE">
+		<Row Tag="TXT_KEY_PROMOTION_KING_MIGHTY">
 			<Text>King mighty</Text>
 		</Row>
 	</Language_en_US>
