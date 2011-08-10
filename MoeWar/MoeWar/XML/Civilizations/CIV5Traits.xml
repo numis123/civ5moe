@@ -44,7 +44,7 @@
 		</Row>
         <!-- 领袖黑子的UA -->
 		<Row>
-			<Type>TRAIT_TELOPORT</Type>
+			<Type>TRAIT_TELEPORT</Type>
 			<Description>TXT_KEY_TRAIT_TELEPORT</Description>
 	   		<ShortDescription>TXT_KEY_TRAIT_TELEPORT_SHORT</ShortDescription>
 		</Row>
