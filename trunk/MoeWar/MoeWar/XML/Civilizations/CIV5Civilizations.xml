@@ -76,8 +76,8 @@
 			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
 			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
 			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
-			<PortraitIndex>15</PortraitIndex>
-			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>MapOttoman512.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_OTTOMANS_TEXT</DawnOfManQuote>
