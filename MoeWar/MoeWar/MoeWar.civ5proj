@@ -110,6 +110,11 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Units.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/GameInfo/CIV5IconTextureAtlases.xml</FileName>
+      </Action>
     </ModActions>
     <ModProperties />
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
@@ -127,16 +132,42 @@
     <PackageMod>false</PackageMod>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Art" />
     <Folder Include="XML" />
     <Folder Include="XML\Civilizations" />
     <Folder Include="XML\Interface" />
     <Folder Include="XML\Leaders" />
     <Folder Include="XML\Buildings" />
+    <Folder Include="XML\GameInfo" />
     <Folder Include="XML\Units" />
     <Folder Include="XML\NewText" />
     <Folder Include="XML\NewText\EN_US" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Art\CivilizationIconAtlas128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivilizationIconAtlas256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivilizationIconAtlas32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivilizationIconAtlas45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivilizationIconAtlas64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\CivilizationIconAtlas80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="XML\Buildings\CIV5Buildings.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -146,6 +177,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Civilizations\CIV5Civilizations.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\GameInfo\CIV5IconTextureAtlases.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
