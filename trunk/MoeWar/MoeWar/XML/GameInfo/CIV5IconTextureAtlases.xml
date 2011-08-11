@@ -3,42 +3,42 @@
 <GameData>
 	<IconTextureAtlases>
 		<Row>
-			<Atlas>CIV_COLOR_ATLAS_MOE</Atlas>
+			<Atlas>MOE_CIV_COLOR_ATLAS</Atlas>
 			<IconSize>256</IconSize>
 			<Filename>CivilizationIconAtlas256.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 		<Row>
-			<Atlas>CIV_COLOR_ATLAS_MOE</Atlas>
+			<Atlas>MOE_CIV_COLOR_ATLAS</Atlas>
 			<IconSize>128</IconSize>
 			<Filename>CivilizationIconAtlas128.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 		<Row>
-			<Atlas>CIV_COLOR_ATLAS_MOE</Atlas>
+			<Atlas>MOE_CIV_COLOR_ATLAS</Atlas>
 			<IconSize>80</IconSize>
 			<Filename>CivilizationIconAtlas80.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 		<Row>
-			<Atlas>CIV_COLOR_ATLAS_MOE</Atlas>
+			<Atlas>MOE_CIV_COLOR_ATLAS</Atlas>
 			<IconSize>64</IconSize>
 			<Filename>CivilizationIconAtlas64.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 		<Row>
-			<Atlas>CIV_COLOR_ATLAS_MOE</Atlas>
+			<Atlas>MOE_CIV_COLOR_ATLAS</Atlas>
 			<IconSize>45</IconSize>
 			<Filename>CivilizationIconAtlas45.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 		<Row>
-			<Atlas>CIV_COLOR_ATLAS_MOE</Atlas>
+			<Atlas>MOE_CIV_COLOR_ATLAS</Atlas>
 			<IconSize>32</IconSize>
 			<Filename>CivilizationIconAtlas32.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
