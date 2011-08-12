@@ -1,11 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by Arkin (Scope) -->
 <!-- Created by ModBuddy on 7/26/2011 7:03:34 PM -->
 <GameData>
 	<Civilizations>
 		<!-- 屏蔽原版文明  -->
-		<Delete Playable ="true"/>
-		<!-- 琴美文明  -->
+		<Delete Playable="true"/>
 		<Row>
+			<!-- 琴美文明  -->
 			<ID>0</ID>
 			<Type>CIVILIZATION_KOTOMI</Type>
 			<Description>TXT_KEY_CIV_KOTOMI_DESC</Description>
@@ -25,8 +26,8 @@
 			<DawnOfManImage>Kotomi_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
-		<!-- 智代文明  -->
 		<Row>
+			<!-- 智代文明  -->
 			<Type>CIVILIZATION_TOMOYO</Type>
 			<Description>TXT_KEY_CIV_TOMOYO_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_TOMOYO_SHORT_DESC</ShortDescription>
@@ -45,8 +46,8 @@
 			<DawnOfManImage>DOM_Wu.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_CHINA</DawnOfManAudio>
 		</Row>
-		<!-- 渚文明  -->
 		<Row>
+			<!-- 渚文明  -->
 			<Type>CIVILIZATION_NAGISA</Type>
 			<Description>TXT_KEY_CIV_NAGISA_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_NAGISA_SHORT_DESC</ShortDescription>
@@ -65,8 +66,8 @@
 			<DawnOfManImage>DOM_Ramesess.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_EGYPT</DawnOfManAudio>
 		</Row>
-		<!-- 杏文明  -->
 		<Row>
+			<!-- 杏文明  -->
 			<Type>CIVILIZATION_KYOU</Type>
 			<Description>TXT_KEY_CIV_KYOU_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_KYOU_SHORT_DESC</ShortDescription>
@@ -85,8 +86,8 @@
 			<DawnOfManImage>DOM_Suleiman.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_OTTOMANS</DawnOfManAudio>
 		</Row>
-		<!-- 风子文明  -->
 		<Row>
+			<!-- 风子文明  -->
 			<Type>CIVILIZATION_FUKO</Type>
 			<Description>TXT_KEY_CIV_FUKO_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_FUKO_SHORT_DESC</ShortDescription>
@@ -105,8 +106,8 @@
 			<DawnOfManImage>DOM_Catherine.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_RUSSIA</DawnOfManAudio>
 		</Row>
-		<!-- 有纪宁文明  -->
 		<Row>
+			<!-- 有纪宁文明  -->
 			<Type>CIVILIZATION_YUKINE</Type>
 			<Description>TXT_KEY_CIV_YUKINE_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_YUKINE_SHORT_DESC</ShortDescription>
@@ -125,8 +126,8 @@
 			<DawnOfManImage>DOM_Elizabeth.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_ENGLAND</DawnOfManAudio>
 		</Row>
-		<!-- 黑子文明  -->
 		<Row>
+			<!-- 黑子文明  -->
 			<Type>CIVILIZATION_KUROKO</Type>
 			<Description>TXT_KEY_CIV_KUROKO_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_KUROKO_SHORT_DESC</ShortDescription>
@@ -350,7 +351,7 @@
 			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
 			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
-		</Row> 
+		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
