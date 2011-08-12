@@ -72,6 +72,25 @@
 		<!-- Unique Buildings -->
 		<Row>
 			<ID>0</ID>
+			<Type>BUILDING_FURUKAWA_PAN</Type>
+			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<Cost>60</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_FURUKAWA_PAN_HELP</Help>
+			<Description>TXT_KEY_BUILDING_FURUKAWA_PAN_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_FURUKAWA_PAN_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FURUKAWA_PAN_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>58</PortraitIndex>
+		</Row>
+		<!--
+		<Row>
+			<ID>0</ID>
 			<Type>BUILDING_FLOATING_GARDENS</Type>
 			<BuildingClass>BUILDINGCLASS_WATERMILL</BuildingClass>
 			<Cost>75</Cost>
@@ -265,6 +284,7 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>55</PortraitIndex>
 		</Row>
+		-->
 		<!-- Special Buildings -->
 		<!--
 		<Row>
@@ -812,16 +832,16 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>33</PortraitIndex>
 		</Row>
-		<!--警察局-->
+		<!--学生会-->
 		<Row>
-			<Type>BUILDING_POLICE_STATION</Type>
+			<Type>BUILDING_STUDENT_UNION</Type>
 			<BuildingClass>BUILDINGCLASS_MILITARY_BASE</BuildingClass>
 			<Cost>500</Cost>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
-			<Help>TXT_KEY_BUILDING_POLICE_STATION_HELP</Help>
-			<Description>TXT_KEY_BUILDING_POLICE_STATION</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_POLICE_STATION_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_POLICE_STATION_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_STUDENT_UNION_HELP</Help>
+			<Description>TXT_KEY_BUILDING_STUDENT_UNION</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STUDENT_UNION_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_STUDENT_UNION_STRATEGY</Strategy>
 			<ArtDefineTag>MILITARY BASE</ArtDefineTag>
 			<NukeImmune>true</NukeImmune>
 			<MinAreaSize>-1</MinAreaSize>
@@ -2055,7 +2075,7 @@
 			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
+			<BuildingType>BUILDING_STUDENT_UNION</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
 		</Row>
 		<!--
@@ -2327,6 +2347,7 @@
 			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2347,6 +2368,7 @@
 			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_SHIPMODEL_ASSOCIATION</BuildingType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -2431,7 +2453,7 @@
 			<Flavor>50</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
+			<BuildingType>BUILDING_STUDENT_UNION</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
@@ -3439,11 +3461,13 @@
 		</Row>
 	</Building_SeaPlotYieldChanges>
 	<Building_LakePlotYieldChanges>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		-->
 	</Building_LakePlotYieldChanges>
 	<Building_SeaResourceYieldChanges>
 		<!--
@@ -3616,7 +3640,6 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
-		-->
 		<Row>
 			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -3627,6 +3650,7 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -3792,11 +3816,13 @@
 		</Row>
 	</Building_TechEnhancedYieldChanges>
 	<Building_YieldModifiers>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>15</Yield>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_HANDWORK_ASSOCIATION</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
