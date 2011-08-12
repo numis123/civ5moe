@@ -131,8 +131,8 @@
 			<Text>Military Academy</Text>
 		</Row>
 		-->
-		<Row Tag="TXT_KEY_BUILDING_POLICE_STATION">
-			<Text>Police Station</Text>
+		<Row Tag="TXT_KEY_BUILDING_STUDENT_UNION">
+			<Text>Student Union</Text>
 		</Row>
 		<!--
 		<Row Tag="TXT_KEY_BUILDING_MINT">
