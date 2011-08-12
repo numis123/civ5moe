@@ -6,6 +6,7 @@
 		<Delete Playable ="true"/>
 		<!-- 琴美文明  -->
 		<Row>
+			<ID>0</ID>
 			<Type>CIVILIZATION_KOTOMI</Type>
 			<Description>TXT_KEY_CIV_KOTOMI_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_KOTOMI_SHORT_DESC</ShortDescription>
@@ -22,7 +23,7 @@
 			<MapImage>Kotomi_Map.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_KOTOMI_TEXT</DawnOfManQuote>
 			<DawnOfManImage>Kotomi_DOM.dds</DawnOfManImage>
-			<!--<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>-->
+			<DawnOfManAudio>AS2D_DOM_SPEECH_JAPAN</DawnOfManAudio>
 		</Row>
 		<!-- 智代文明  -->
 		<Row>
@@ -344,7 +345,28 @@
 			<LeaderheadType>LEADER_KUROKO</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
-	<!--<Civilization_BuildingClassOverrides>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
+		</Row> 
+		<Row>
+			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KYOU</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KYOU</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+		</Row>
+		<!--
 		<Row>
 			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
@@ -380,7 +402,8 @@
 			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
 			<BuildingType>BUILDING_JUDGEMENT</BuildingType>
 		</Row>
-	</Civilization_BuildingClassOverrides>-->
+	-->
+	</Civilization_BuildingClassOverrides>
 	<!-- 各文明出生点偏向，四选一，有优先级  -->
 	<!-- Coastal bias trumps River bias trumps Region Priority trumps Region Avoid  -->
 	<Civilization_Start_Region_Priority>
