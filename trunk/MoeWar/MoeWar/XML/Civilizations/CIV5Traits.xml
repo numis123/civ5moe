@@ -42,11 +42,11 @@
 			<ShortDescription>TXT_KEY_TRAIT_ANEGO_SHORT</ShortDescription>
 			<CityStateBonusModifier>33</CityStateBonusModifier>
 		</Row>
-        <!-- 领袖黑子的UA -->
+		<!-- 领袖黑子的UA -->
 		<Row>
 			<Type>TRAIT_TELEPORT</Type>
 			<Description>TXT_KEY_TRAIT_TELEPORT</Description>
-	   		<ShortDescription>TXT_KEY_TRAIT_TELEPORT_SHORT</ShortDescription>
+			<ShortDescription>TXT_KEY_TRAIT_TELEPORT_SHORT</ShortDescription>
 		</Row>
 	</Traits>
 	<Trait_YieldModifiers>

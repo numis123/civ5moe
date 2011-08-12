@@ -124,7 +124,7 @@
 			<DawnOfManImage>DOM_Elizabeth.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_ENGLAND</DawnOfManAudio>
 		</Row>
-        <!-- 黑子文明  -->
+		<!-- 黑子文明  -->
 		<Row>
 			<Type>CIVILIZATION_KUROKO</Type>
 			<Description>TXT_KEY_CIV_KUROKO_DESC</Description>
@@ -192,18 +192,18 @@
 			<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
 			<CityName>TXT_KEY_CITY_NAME_FURUKAWA_PAN</CityName>
 		</Row>
-        <!-- 黑子文明的城市  -->
+		<!-- 黑子文明的城市  -->
 		<Row>
 			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
-		        <CityName>TXT_KEY_CITY_NAME_TOKIWADAI_MIDDLE_SCHOOL</CityName>
+			<CityName>TXT_KEY_CITY_NAME_TOKIWADAI_MIDDLE_SCHOOL</CityName>
 		</Row>
-                <Row>
+		<Row>
 			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
-		        <CityName>TXT_KEY_CITY_NAME_SAKUGAWA_MIDDLE_SCHOOL</CityName>
+			<CityName>TXT_KEY_CITY_NAME_SAKUGAWA_MIDDLE_SCHOOL</CityName>
 		</Row>
-                <Row>
+		<Row>
 			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
-		        <CityName>TXT_KEY_CITY_NAME_JUDGEMENT_DAI_ICHINANA_SHIBU</CityName>
+			<CityName>TXT_KEY_CITY_NAME_JUDGEMENT_DAI_ICHINANA_SHIBU</CityName>
 		</Row>
 	</Civilization_CityNames>
 	<!-- 各文明首都初始建筑设置，默认为宫殿  -->
@@ -306,7 +306,7 @@
 			<Count>1</Count>
 			<UnitAIType>UNITAI_SETTLE</UnitAIType>
 		</Row>
-                <Row>
+		<Row>
 			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
 			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
 			<Count>1</Count>
@@ -344,43 +344,43 @@
 			<LeaderheadType>LEADER_KUROKO</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
-	<Civilization_BuildingClassOverrides>
-	<Row>
-		<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
-		<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
-		<BuildingType>BUILDING_DRAMA_CLUB</BuildingType>
-	</Row>
-	<Row>
-		<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
-		<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
-		<BuildingType>BUILDING_FURUKAWA_PAN</BuildingType>
-	</Row>
-	<Row>
-		<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
-		<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
-		<BuildingType>BUILDING_TOE_LAB</BuildingType>
-	</Row>
-	<Row>
-		<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
-		<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
-		<BuildingType>BUILDING_HIKARIZAKA_SEITOKAI</BuildingType>
-	</Row>
-	<Row>
-		<CivilizationType>CIVILIZATION_FUKO</CivilizationType>
-		<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
-		<BuildingType>BUILDING_STARFISH_WORKSHOP</BuildingType>
-	</Row>
-	<Row>
-		<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
-		<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
-		<BuildingType>BUILDING_SHIRYOUSHITSU</BuildingType>
-	</Row>
-	<Row>
-		<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
-		<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
-		<BuildingType>BUILDING_JUDGEMENT</BuildingType>
-	</Row>
-	</Civilization_BuildingClassOverrides>
+	<!--<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<BuildingType>BUILDING_DRAMA_CLUB</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<BuildingType>BUILDING_FURUKAWA_PAN</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<BuildingType>BUILDING_TOE_LAB</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+			<BuildingType>BUILDING_HIKARIZAKA_SEITOKAI</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FUKO</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<BuildingType>BUILDING_STARFISH_WORKSHOP</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<BuildingType>BUILDING_SHIRYOUSHITSU</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<BuildingType>BUILDING_JUDGEMENT</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>-->
 	<!-- 各文明出生点偏向，四选一，有优先级  -->
 	<!-- Coastal bias trumps River bias trumps Region Priority trumps Region Avoid  -->
 	<Civilization_Start_Region_Priority>
