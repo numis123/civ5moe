@@ -2,6 +2,7 @@
 <!-- Created by ModBuddy on 8/11/2011 11:56:39 AM -->
 <GameData>
 	<IconTextureAtlases>
+		<!--文明图标-->
 		<Row>
 			<Atlas>MOE_CIV_COLOR_ATLAS</Atlas>
 			<IconSize>256</IconSize>
@@ -41,6 +42,28 @@
 			<Atlas>MOE_CIV_COLOR_ATLAS</Atlas>
 			<IconSize>32</IconSize>
 			<Filename>CivilizationIconAtlas32.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<!--领袖图标-->
+		<Row>
+			<Atlas>MOE_LEADER_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderIconAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOE_LEADER_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderIconAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOE_LEADER_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderIconAtlas64.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>

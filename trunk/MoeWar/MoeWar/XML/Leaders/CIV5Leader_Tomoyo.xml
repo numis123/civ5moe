@@ -21,8 +21,8 @@
 			<Forgiveness>4</Forgiveness>
 			<Chattiness>6</Chattiness>
 			<Meanness>7</Meanness>
-			<PortraitIndex>4</PortraitIndex>
-			<IconAtlas>LEADER_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>MOE_LEADER_ATLAS</IconAtlas>
 		</Row>
 	</Leaders>
 	<Leader_MajorCivApproachBiases>
