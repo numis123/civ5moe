@@ -8,7 +8,7 @@
 		<!--
 		<Row Tag="TXT_KEY_BUILDING_ACADEMY">
 			<Text>Academy</Text>
-            <Gender>neuter:an</Gender>
+			<Gender>neuter:an</Gender>
 		</Row>
 		-->
 		<Row Tag="TXT_KEY_BUILDING_ANGKOR_WAT">
@@ -16,18 +16,18 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BASKETBALL_ASSOCIATION">
 			<Text>Basketball Association</Text>
-            <Gender>neuter:an</Gender>
+			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SECURITY_OFFICE">
 			<Text>Security Office</Text>
-            <Gender>neuter:an</Gender>
+			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SUPERMARKET">
 			<Text>Supermarket</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ATHLETICS_ASSOCIATION">
 			<Text>Athletics Association</Text>
-            <Plurality>2</Plurality>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BIG_BEN">
 			<Text>Big Ben</Text>
@@ -167,7 +167,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHORUS_ASSOCIATION">
 			<Text>Chorus Association</Text>
-            <Gender>neuter:an</Gender>
+			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORACLE">
 			<Text>The Oracle</Text>
@@ -191,7 +191,7 @@
 		-->
 		<Row Tag="TXT_KEY_BUILDING_PYRAMID">
 			<Text>The Pyramids</Text>
-            <Plurality>2</Plurality>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SISTINE_CHAPEL">
 			<Text>Sistine Chapel</Text>
@@ -235,7 +235,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WALL">
 			<Text>Wall</Text>
-            <Plurality>2</Plurality>
+			<Plurality>2</Plurality>
 		</Row>
 		<!--
 		<Row Tag="TXT_KEY_BUILDING_WATERMILL">
@@ -279,8 +279,8 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_IRONWORKS">
 			<Text>Ironworks</Text>
-            <Gender>neuter:an</Gender>
-            <Plurality>2</Plurality>
+			<Gender>neuter:an</Gender>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY">
 			<Text>Oxford University</Text>

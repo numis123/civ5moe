@@ -9,7 +9,7 @@
     <Stability>Alpha</Stability>
     <Teaser>Civ V Saimoe Tournament, hosted by XXX</Teaser>
     <Description>Civ V Saimoe Tournament, hosted by XXX</Description>
-    <Authors>L.T;Arkin</Authors>
+    <Authors>L.T.;Arkin</Authors>
     <SpecialThanks>西艾薇·C·Kyou</SpecialThanks>
     <Categories>$Categories$</Categories>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -89,16 +89,6 @@
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Leaders.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Buildings.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>XML/Buildings/CIV5Buildings.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
