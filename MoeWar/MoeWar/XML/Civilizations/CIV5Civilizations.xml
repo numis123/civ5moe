@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSpy v2008 (http://www.altova.com) by Arkin (Scope) -->
 <!-- Created by ModBuddy on 7/26/2011 7:03:34 PM -->
 <GameData>
@@ -348,22 +348,72 @@
 	</Civilization_Leaders>
 	<Civilization_BuildingClassOverrides>
 		<Row>
+			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+		</Row>
+		<Row>
 			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KYOU</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KYOU</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FUKO</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
 			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
+			<CivilizationType>CIVILIZATION_FUKO</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
 			<BuildingType>BUILDING_KREPOST</BuildingType>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_KYOU</CivilizationType>
+			<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
 			<BuildingType>BUILDING_KREPOST</BuildingType>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_KYOU</CivilizationType>
+			<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
 		</Row>
