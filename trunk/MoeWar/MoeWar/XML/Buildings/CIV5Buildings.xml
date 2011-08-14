@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by Arkin (Scope) -->
 <!-- Edited By Arkin-->
 <!-- 2011/7/30 ArtDefineTag未作修改-->
 <!-- 2011/7/30 UB未作修改-->
@@ -50,8 +51,8 @@
 		<Delete Type="BUILDING_MILITARY_ACADEMY"/>
 		<Delete Type="BUILDING_NUCLEAR_PLANT"/>
 		<Delete Type="BUILDING_SPACESHIP_FACTORY"/>
-		<!-- 家长委员会 -->
 		<Row>
+			<!-- 家长委员会 -->
 			<Type>BUILDING_PARENT_COMMITTEE</Type>
 			<BuildingClass>BUILDINGCLASS_COURTHOUSE</BuildingClass>
 			<Cost>100</Cost>
@@ -306,8 +307,8 @@
 			<PortraitIndex>48</PortraitIndex>
 		</Row>
 		-->
-		<!--机械社-->
 		<Row>
+			<!--机械社-->
 			<Type>BUILDING_MACHINARY_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
 			<Cost>100</Cost>
@@ -359,8 +360,8 @@
 			<PortraitIndex>44</PortraitIndex>
 		</Row>
 		-->
-		<!--器材室-->
 		<Row>
+			<!--器材室-->
 			<Type>BUILDING_EQUIPMENT_ROOM</Type>
 			<BuildingClass>BUILDINGCLASS_FORGE</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
@@ -485,8 +486,8 @@
 			<PortraitIndex>38</PortraitIndex>
 		</Row>
 		-->
-		<!--花园-->
 		<Row>
+			<!--花园-->
 			<Type>BUILDING_GARDEN</Type>
 			<BuildingClass>BUILDINGCLASS_GARDEN</BuildingClass>
 			<Cost>120</Cost>
@@ -506,8 +507,8 @@
 			<PortraitIndex>24</PortraitIndex>
 		</Row>
 		<!-- Normal Buildings -->
-		<!--垂钓部-->
 		<Row>
+			<!--垂钓部-->
 			<Type>BUILDING_FISHING_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_LIGHTHOUSE</BuildingClass>
 			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
@@ -528,8 +529,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>36</PortraitIndex>
 		</Row>
-		<!--航模社-->
 		<Row>
+			<!--航模社-->
 			<Type>BUILDING_SHIPMODEL_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_HARBOR</BuildingClass>
 			<Cost>120</Cost>
@@ -550,8 +551,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>26</PortraitIndex>
 		</Row>
-		<!--操场-->
 		<Row>
+			<!--操场-->
 			<Type>BUILDING_PLAYGROUND</Type>
 			<BuildingClass>BUILDINGCLASS_COLOSSEUM</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
@@ -593,8 +594,8 @@
 			<PortraitIndex>20</PortraitIndex>
 		</Row>
 		-->
-		<!--游戏中心-->
 		<Row>
+			<!--游戏中心-->
 			<Type>BUILDING_GAME_CENTRE</Type>
 			<BuildingClass>BUILDINGCLASS_STADIUM</BuildingClass>
 			<Cost>500</Cost>
@@ -614,8 +615,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>25</PortraitIndex>
 		</Row>
-		<!--文学社-->
 		<Row>
+			<!--文学社-->
 			<Type>BUILDING_LITERARY_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
 			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
@@ -655,8 +656,8 @@
 			<PortraitIndex>37</PortraitIndex>
 		</Row>
 		-->
-		<!--合唱部-->
 		<Row>
+			<!--合唱部-->
 			<Type>BUILDING_CHORUS_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_OPERA_HOUSE</BuildingClass>
 			<Cost>200</Cost>
@@ -675,8 +676,8 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>49</PortraitIndex>
 		</Row>
-		<!--歌剧社-->
 		<Row>
+			<!--歌剧社-->
 			<Type>BUILDING_OPERA_CLUB</Type>
 			<BuildingClass>BUILDINGCLASS_MUSEUM</BuildingClass>
 			<Cost>300</Cost>
@@ -695,8 +696,8 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>22</PortraitIndex>
 		</Row>
-		<!--轻音部-->
 		<Row>
+			<!--轻音部-->
 			<Type>BUILDING_K_ON</Type>
 			<BuildingClass>BUILDINGCLASS_BROADCAST_TOWER</BuildingClass>
 			<Cost>500</Cost>
@@ -716,8 +717,8 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>35</PortraitIndex>
 		</Row>
-		<!--田径部-->
 		<Row>
+			<!--田径部-->
 			<Type>BUILDING_ATHLETICS_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
@@ -735,8 +736,8 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>5</PortraitIndex>
 		</Row>
-		<!--篮球部-->
 		<Row>
+			<!--篮球部-->
 			<Type>BUILDING_BASKETBALL_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_ARMORY</BuildingClass>
 			<Cost>160</Cost>
@@ -772,8 +773,8 @@
 			<PortraitIndex>8</PortraitIndex>
 		</Row>
 		-->
-		<!--保卫处-->
 		<Row>
+			<!--保卫处-->
 			<Type>BUILDING_SECURITY_OFFICE</Type>
 			<BuildingClass>BUILDINGCLASS_ARSENAL</BuildingClass>
 			<Cost>300</Cost>
@@ -791,8 +792,8 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>9</PortraitIndex>
 		</Row>
-		<!--围墙-->
 		<Row>
+			<!--围墙-->
 			<Type>BUILDING_WALL</Type>
 			<BuildingClass>BUILDINGCLASS_WALL</BuildingClass>
 			<Cost>75</Cost>
@@ -811,8 +812,8 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>32</PortraitIndex>
 		</Row>
-		<!--宿管会-->
 		<Row>
+			<!--宿管会-->
 			<Type>BUILDING_DORM_COUSIL</Type>
 			<BuildingClass>BUILDINGCLASS_CASTLE</BuildingClass>
 			<Cost>160</Cost>
@@ -832,8 +833,8 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>33</PortraitIndex>
 		</Row>
-		<!--学生会-->
 		<Row>
+			<!--学生会-->
 			<Type>BUILDING_STUDENT_UNION</Type>
 			<BuildingClass>BUILDINGCLASS_MILITARY_BASE</BuildingClass>
 			<Cost>500</Cost>
@@ -854,8 +855,8 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>10</PortraitIndex>
 		</Row>
-		<!--小卖部-->
 		<Row>
+			<!--小卖部-->
 			<Type>BUILDING_BUFFET</Type>
 			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
 			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
@@ -873,8 +874,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
-		<!--食堂-->
 		<Row>
+			<!--食堂-->
 			<Type>BUILDING_DINNING_HALL</Type>
 			<BuildingClass>BUILDINGCLASS_HOSPITAL</BuildingClass>
 			<Cost>360</Cost>
@@ -891,8 +892,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>45</PortraitIndex>
 		</Row>
-		<!--园艺社-->
 		<Row>
+			<!--园艺社-->
 			<Type>BUILDING_GARDENING_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_MEDICAL_LAB</BuildingClass>
 			<Cost>500</Cost>
@@ -910,8 +911,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>62</PortraitIndex>
 		</Row>
-		<!--手工部-->
 		<Row>
+			<!--手工部-->
 			<Type>BUILDING_HANDWORK_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_WORKSHOP</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
@@ -931,8 +932,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 		</Row>
-		<!--工程会-->
 		<Row>
+			<!--工程会-->
 			<Type>BUILDING_ENGINEERING_ASSOCIATION</Type>
 			<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass>
 			<Cost>360</Cost>
@@ -989,8 +990,8 @@
 			<PortraitIndex>54</PortraitIndex>
 		</Row>
 		-->
-		<!--商店-->
 		<Row>
+			<!--商店-->
 			<Type>BUILDING_SHOP</Type>
 			<BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
@@ -1009,8 +1010,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
 		</Row>
-		<!--超市-->
 		<Row>
+			<!--超市-->
 			<Type>BUILDING_SUPERMARKET</Type>
 			<BuildingClass>BUILDINGCLASS_BANK</BuildingClass>
 			<FreeStartEra>ERA_FUTURE</FreeStartEra>
@@ -1029,8 +1030,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>18</PortraitIndex>
 		</Row>
-		<!--商业街-->
 		<Row>
+			<!--商业街-->
 			<Type>BUILDING_COMMERCIAL_STREET</Type>
 			<BuildingClass>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClass>
 			<Cost>500</Cost>
@@ -1048,8 +1049,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>56</PortraitIndex>
 		</Row>
-		<!--自习室-->
 		<Row>
+			<!--自习室-->
 			<Type>BUILDING_STUDY_ROOM</Type>
 			<BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
@@ -1067,8 +1068,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
 		</Row>
-		<!--学校图书馆-->
 		<Row>
+			<!--学校图书馆-->
 			<Type>BUILDING_SCHOOL_LIBRARY</Type>
 			<BuildingClass>BUILDINGCLASS_UNIVERSITY</BuildingClass>
 			<Cost>160</Cost>
@@ -1087,8 +1088,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>13</PortraitIndex>
 		</Row>
-		<!--多媒体教室-->
 		<Row>
+			<!--多媒体教室-->
 			<Type>BUILDING_MEDIA_CLASSROOM</Type>
 			<BuildingClass>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClass>
 			<Cost>300</Cost>
@@ -1107,8 +1108,8 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>14</PortraitIndex>
 		</Row>
-		<!--实验室-->
 		<Row>
+			<!--实验室-->
 			<Type>BUILDING_LAB</Type>
 			<BuildingClass>BUILDINGCLASS_LABORATORY</BuildingClass>
 			<Cost>500</Cost>
