@@ -105,6 +105,11 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/GameInfo/CIV5IconTextureAtlases.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/GlobalDefines.xml</FileName>
+      </Action>
     </ModActions>
     <ModProperties />
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
@@ -191,6 +196,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\GameInfo\CIV5IconTextureAtlases.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\GlobalDefines.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
