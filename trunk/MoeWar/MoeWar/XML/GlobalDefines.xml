@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/14/2011 11:28:31 PM -->
+<GameData>
+	<Defines>
+		<Update>
+			<Set Value="5"/>
+			<Where Name="PLOT_UNIT_LIMIT"/>
+		</Update>
+	</Defines>
+</GameData>
