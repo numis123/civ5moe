@@ -1,8 +1,8 @@
 =需要软件=
-* Photoshop
-* NVIDIA Plug-in for Adobe Photoshop （PS读取和存储DDS文件的插件）：可以在官网下载http://developer.nvidia.com/nvidia-texture-tools-adobe-photoshop，或者在网上以“PS DDS”搜索中汉化版。
+  * Photoshop
+  * NVIDIA Plug-in for Adobe Photoshop （PS读取和存储DDS文件的插件）：可以在官网下载http://developer.nvidia.com/nvidia-texture-tools-adobe-photoshop，或者在网上以“PS DDS”搜索中汉化版。
 下载完之后点“编辑”里的“增效工具”（如果是PSCS高版本就是编辑-首选项-增效工具），选中“附件的增效工具文件夹”，然后指向插件安装/解压的目录，之后重启PS就能用插件了
-* 各种psd，请从本网站Source-Browse里下，都在svn/trunk/MoeWar/MoeWar/Art里；或者用svn软件同步（推荐。svn使用方法请询问某A~）
+  * 各种psd，请从本网站Source-Browse里下，都在svn/trunk/MoeWar/MoeWar/Art里；或者用svn软件同步（推荐。svn使用方法请询问某A~）
 
 =文明图标=
 * 直接修改CivilizationIconAtlas256.psd就行
