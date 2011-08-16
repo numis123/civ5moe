@@ -29,3 +29,5 @@
 ---- 
 
 目前就这些，待补充
+
+顺便，SDK里加Art的时候一定要把“Import to VFS”设成“True”
