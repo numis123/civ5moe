@@ -41,9 +41,9 @@
 			<PortraitIndex>13</PortraitIndex>
 			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<MapImage>MapChina512.dds</MapImage>
+			<MapImage>Tomoyo_Map.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_CHINA_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Wu.dds</DawnOfManImage>
+			<DawnOfManImage>Tomoyo_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_CHINA</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -61,9 +61,9 @@
 			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<MapImage>MapEgypt512.dds</MapImage>
+			<MapImage>Nagisa_Map.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_EGYPT_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Ramesess.dds</DawnOfManImage>
+			<DawnOfManImage>Nagisa_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_EGYPT</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -81,9 +81,9 @@
 			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<MapImage>MapOttoman512.dds</MapImage>
+			<MapImage>Kyou_Map.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_OTTOMANS_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Suleiman.dds</DawnOfManImage>
+			<DawnOfManImage>Kyou_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_OTTOMANS</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -101,9 +101,9 @@
 			<PortraitIndex>18</PortraitIndex>
 			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<MapImage>MapRussia512.dds</MapImage>
+			<MapImage>Fuko_Map.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_RUSSIA_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Catherine.dds</DawnOfManImage>
+			<DawnOfManImage>Fuko_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_RUSSIA</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -121,9 +121,9 @@
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<MapImage>MapEngland512.dds</MapImage>
+			<MapImage>Yukine_Map.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_ENGLAND_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Elizabeth.dds</DawnOfManImage>
+			<DawnOfManImage>Yukine_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_ENGLAND</DawnOfManAudio>
 		</Row>
 		<Row>
@@ -141,9 +141,9 @@
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<MapImage>MapGermany512.dds</MapImage>
+			<MapImage>Kuroko_Map.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_GERMANY_TEXT</DawnOfManQuote>
-			<DawnOfManImage>DOM_Bizmark.dds</DawnOfManImage>
+			<DawnOfManImage>Kuroko_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_GERMANY</DawnOfManAudio>
 		</Row>
 	</Civilizations>
