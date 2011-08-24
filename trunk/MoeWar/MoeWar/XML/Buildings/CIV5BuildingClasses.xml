@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Update>
+			<Set DefaultBuilding="BUILDING_PARENT_COMMITTEE"/>
+			<Set Description="TXT_KEY_BUILDING_PARENT_COMMITTEE"/>
+			<Where Type="BUILDINGCLASS_COURTHOUSE"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_BUFFET"/>
+			<Set Description="TXT_KEY_BUILDING_BUFFET"/>
+			<Where Type="BUILDINGCLASS_GRANARY"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_COOKING_CLUB"/>
+			<Set Description="TXT_KEY_BUILDING_COOKING_CLUB"/>
+			<Where Type="BUILDINGCLASS_AQUEDUCT"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_DINNING_HALL"/>
+			<Set Description="TXT_KEY_BUILDING_DINNING_HALL"/>
+			<Where Type="BUILDINGCLASS_HOSPITAL"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_GARDENING_CLUB"/>
+			<Set Description="TXT_KEY_BUILDING_GARDENING_CLUB"/>
+			<Where Type="BUILDINGCLASS_MEDICAL_LAB"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_FISHING_CLUB"/>
+			<Set Description="TXT_KEY_BUILDING_FISHING_CLUB"/>
+			<Where Type="BUILDINGCLASS_LIGHTHOUSE"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_STUDY_ROOM"/>
+			<Set Description="TXT_KEY_BUILDING_STUDY_ROOM"/>
+			<Where Type="BUILDINGCLASS_LIBRARY"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_SCHOOL_LIBRARY"/>
+			<Set Description="TXT_KEY_BUILDING_SCHOOL_LIBRARY"/>
+			<Where Type="BUILDINGCLASS_UNIVERSITY"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_MULTIMEDIA_CLASSROOM"/>
+			<Set Description="TXT_KEY_BUILDING_MULTIMEDIA_CLASSROOM"/>
+			<Where Type="BUILDINGCLASS_PUBLIC_SCHOOL"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_LAB"/>
+			<Set Description="TXT_KEY_BUILDING_LAB"/>
+			<Where Type="BUILDINGCLASS_LABORATORY"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_PLAYGROUND"/>
+			<Set Description="TXT_KEY_BUILDING_PLAYGROUND"/>
+			<Where Type="BUILDINGCLASS_COLOSSEUM"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_ACTIVITY_ROOM"/>
+			<Set Description="TXT_KEY_BUILDING_ACTIVITY_ROOM"/>
+			<Where Type="BUILDINGCLASS_THEATRE"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_GAME_CENTRE"/>
+			<Set Description="TXT_KEY_BUILDING_GAME_CENTRE"/>
+			<Where Type="BUILDINGCLASS_STADIUM"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_LITERARY_CLUB"/>
+			<Set Description="TXT_KEY_BUILDING_LITERARY_CLUB"/>
+			<Where Type="BUILDINGCLASS_MONUMENT"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_CHORUS_CLUB"/>
+			<Set Description="TXT_KEY_BUILDING_CHORUS_CLUB"/>
+			<Where Type="BUILDINGCLASS_OPERA_HOUSE"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_OPERA_CLUB"/>
+			<Set Description="TXT_KEY_BUILDING_OPERA_CLUB"/>
+			<Where Type="BUILDINGCLASS_MUSEUM"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_K_ON"/>
+			<Set Description="TXT_KEY_BUILDING_K_ON"/>
+			<Where Type="BUILDINGCLASS_BROADCAST_TOWER"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_TRACK_AND_FIELD_CLUB"/>
+			<Set Description="TXT_KEY_BUILDING_TRACK_AND_FIELD_CLUB"/>
+			<Where Type="BUILDINGCLASS_BARRACKS"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_BASKETBALL_CLUB"/>
+			<Set Description="TXT_KEY_BUILDING_BASKETBALL_CLUB"/>
+			<Where Type="BUILDINGCLASS_ARMORY"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_CONVENIENT_STORE"/>
+			<Set Description="TXT_KEY_BUILDING_CONVENIENT_STORE"/>
+			<Where Type="BUILDINGCLASS_MARKET"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_SUPERMARKET"/>
+			<Set Description="TXT_KEY_BUILDING_SUPERMARKET"/>
+			<Where Type="BUILDINGCLASS_BANK"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_SHOTENGAI"/>
+			<Set Description="TXT_KEY_BUILDING_SHOTENGAI"/>
+			<Where Type="BUILDINGCLASS_STOCK_EXCHANGE"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_WALL"/>
+			<Set Description="TXT_KEY_BUILDING_WALL"/>
+			<Where Type="BUILDINGCLASS_WALL"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_DORMITORY_COUNCIL"/>
+			<Set Description="TXT_KEY_BUILDING_DORMITORY_COUNCIL"/>
+			<Where Type="BUILDINGCLASS_CASTLE"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_SECURITY_OFFICE"/>
+			<Set Description="TXT_KEY_BUILDING_SECURITY_OFFICE"/>
+			<Where Type="BUILDINGCLASS_ARSENAL"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_SEIDOKAI"/>
+			<Set Description="TXT_KEY_BUILDING_SEIDOKAI"/>
+			<Where Type="BUILDINGCLASS_MILITARY_BASE"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_HANDICRAFT_CLUB"/>
+			<Set Description="TXT_KEY_BUILDING_HANDICRAFT_CLUB"/>
+			<Where Type="BUILDINGCLASS_WORKSHOP"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_ENGINEERING_ASSOCIATION"/>
+			<Set Description="TXT_KEY_BUILDING_ENGINEERING_ASSOCIATION"/>
+			<Where Type="BUILDINGCLASS_FACTORY"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_EQUIPMENT_ROOM"/>
+			<Set Description="TXT_KEY_BUILDING_EQUIPMENT_ROOM"/>
+			<Where Type="BUILDINGCLASS_FORGE"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_SHIPMODEL_CLUB"/>
+			<Set Description="TXT_KEY_BUILDING_SHIPMODEL_CLUB"/>
+			<Where Type="BUILDINGCLASS_HARBOR"/>
+		</Update>
+		<Update>
+			<Set DefaultBuilding="BUILDING_MACHINARY_CLUB"/>
+			<Set Description="TXT_KEY_BUILDING_MACHINARY_CLUB"/>
+			<Where Type="BUILDINGCLASS_STABLE"/>
+		</Update>
+	</BuildingClasses>
+</GameData>

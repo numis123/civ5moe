@@ -1,295 +1,111 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Sid Meier's Civilization V -->
-<!-- Copyright Firaxis Games 2010 -->
-<!-- -->
-<!-- Game Text Objects -->
 <GameData>
 	<Language_en_US>
-		<!--
-		<Row Tag="TXT_KEY_BUILDING_ACADEMY">
-			<Text>Academy</Text>
-			<Gender>neuter:an</Gender>
-		</Row>
-		-->
-		<Row Tag="TXT_KEY_BUILDING_ANGKOR_WAT">
-			<Text>Angkor Wat</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BASKETBALL_ASSOCIATION">
-			<Text>Basketball Association</Text>
-			<Gender>neuter:an</Gender>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SECURITY_OFFICE">
-			<Text>Security Office</Text>
-			<Gender>neuter:an</Gender>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SUPERMARKET">
-			<Text>Supermarket</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_ATHLETICS_ASSOCIATION">
-			<Text>Athletics Association</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BIG_BEN">
-			<Text>Big Ben</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BRANDENBURG_GATE">
-			<Text>Brandenburg Gate</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_K_ON">
-			<Text>K-ON!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_DORM_COUSIL">
-			<Text>Dorm cousil</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_CHICHEN_ITZA">
-			<Text>Chichen Itza</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_PLAYGROUND">
-			<Text>Playground</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_COLOSSUS">
-			<Text>The Colossus</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_CRISTO_REDENTOR">
-			<Text>Cristo Redentor</Text>
-		</Row>
-		<!--
-		<Row Tag="TXT_KEY_BUILDING_SEAPORT">
-			<Text>Seaport</Text>
-		</Row>
-		-->
-		<Row Tag="TXT_KEY_BUILDING_EIFFEL_TOWER">
-			<Text>Eiffel Tower</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_ENGINEERING_ASSOCIATION">
-			<Text>Engineering Association</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_FORBIDDEN_PALACE">
-			<Text>The Forbidden Palace</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_EQUIPMENT_ROOM">
-			<Text>Equipment Room</Text>
-		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BUFFET">
 			<Text>Buffet</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GREAT_LIBRARY">
-			<Text>The Great Library</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GREAT_LIGHTHOUSE">
-			<Text>The Great Lighthouse</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GREAT_WALL">
-			<Text>The Great Wall</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GROCER">
-			<Text>Grocer</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_HAGIA_SOPHIA">
-			<Text>The Hagia Sophia</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_HANGING_GARDEN">
-			<Text>The Hanging Gardens</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SHIPMODEL_ASSOCIATION">
-			<Text>Shipmodel Association</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_HEROIC_EPIC">
-			<Text>Heroic Epic</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_HIMEJI_CASTLE">
-			<Text>Himeji Castle</Text>
-		</Row>
-		<!--
-		<Row Tag="TXT_KEY_BUILDING_HYDRO_PLANT">
-			<Text>Hydro Plant</Text>
-		</Row>
-		-->
-		<Row Tag="TXT_KEY_BUILDING_KREMLIN">
-			<Text>The Kremlin</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_LAB">
-			<Text>Lab</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STUDY_ROOM">
-			<Text>Study room</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_FISHING_ASSOCIATION">
-			<Text>Fishing Association</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_LOUVRE">
-			<Text>The Louvre</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MACHU_PICHU">
-			<Text>Machu Picchu</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SHOP">
-			<Text>Shop</Text>
-		</Row>
-		<!--
-		<Row Tag="TXT_KEY_BUILDING_MILITARY_ACADEMY">
-			<Text>Military Academy</Text>
-		</Row>
-		-->
-		<Row Tag="TXT_KEY_BUILDING_STUDENT_UNION">
-			<Text>Student Union</Text>
-		</Row>
-		<!--
-		<Row Tag="TXT_KEY_BUILDING_MINT">
-			<Text>Mint</Text>
-		</Row>
-		-->
-		<Row Tag="TXT_KEY_BUILDING_OPERA_CLUB">
-			<Text>Opera Club</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE">
-			<Text>National College</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_NATIONAL_EPIC">
-			<Text>National Epic</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_CIRCUS_MAXIMUS">
-			<Text>Circus Maximus</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_NATIONAL_TREASURY">
-			<Text>National Treasury</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROJECT_UTOPIA_PROJECT">
-			<Text>Utopia Project</Text>
-		</Row>
-		<!--
-		<Row Tag="TXT_KEY_BUILDING_NUCLEAR_PLANT">
-			<Text>Nuclear Plant</Text>
-		</Row>
-		-->
-		<Row Tag="TXT_KEY_BUILDING_NOTRE_DAME">
-			<Text>Notre Dame</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_CHORUS_ASSOCIATION">
-			<Text>Chorus Association</Text>
-			<Gender>neuter:an</Gender>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_ORACLE">
-			<Text>The Oracle</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_PALACE">
-			<Text>Palace</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_PENTAGON">
-			<Text>Pentagon</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_PARK">
-			<Text>Park</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_PORCELAIN_TOWER">
-			<Text>The Porcelain Tower</Text>
-		</Row>
-		<!--
-		<Row Tag="TXT_KEY_BUILDING_OBSERVATORY">
-			<Text>Observatory</Text>
-		</Row>
-		-->
-		<Row Tag="TXT_KEY_BUILDING_PYRAMID">
-			<Text>The Pyramids</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SISTINE_CHAPEL">
-			<Text>Sistine Chapel</Text>
-		</Row>
-		<!--
-		<Row Tag="TXT_KEY_BUILDING_SOLAR_PLANT">
-			<Text>Solar Plant</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SPACESHIP_FACTORY">
-			<Text>Spaceship Factory</Text>
-		</Row>
-		-->
-		<Row Tag="TXT_KEY_BUILDING_MACHINARY_ASSOCIATION">
-			<Text>Machinary Association</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STATUE_OF_LIBERTY">
-			<Text>Statue of Liberty</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STONEHENGE">
-			<Text>Stonehenge</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_TAJ_MAHAL">
-			<Text>Taj Mahal</Text>
-		</Row>
-		<!--
-		<Row Tag="TXT_KEY_BUILDING_TEMPLE">
-			<Text>Temple</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_THEATRE">
-			<Text>Theatre</Text>
-		</Row>
-		-->
-		<Row Tag="TXT_KEY_BUILDING_COURTHOUSE">
-			<Text>Courthouse</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_UNITED_NATIONS">
-			<Text>United Nations</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SCHOOL_LIBRARY">
-			<Text>School Library</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_WALL">
-			<Text>Wall</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<!--
-		<Row Tag="TXT_KEY_BUILDING_WATERMILL">
-			<Text>Water Mill</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_WINDMILL">
-			<Text>Windmill</Text>
-		</Row>
-		-->
-		<Row Tag="TXT_KEY_BUILDING_HANDWORK_ASSOCIATION">
-			<Text>Handwork Association</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_DESC">
-			<Text>Mughal Fort</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_AQUEDUCT">
-			<Text>Aqueduct</Text>
+		<Row Tag="TXT_KEY_BUILDING_COOKING_CLUB">
+			<Text>Cooking Club</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DINING_HALL">
 			<Text>Dining Hall</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GARDENING_ASSOCIATION">
-			<Text>Gardening Association</Text>
+		<Row Tag="TXT_KEY_BUILDING_GARDENING_CLUB">
+			<Text>Gardening Club</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_COMMERCIAL_STREET">
-			<Text>Commercial Street</Text>
+		<Row Tag="TXT_KEY_BUILDING_FISHING_CLUB">
+			<Text>Fishing Club</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MEDIA_CLASSROOM">
-			<Text>Media Classroom</Text>
+		<Row Tag="TXT_KEY_BUILDING_STUDY_ROOM">
+			<Text>Study Room</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_KREPOST_DESC">
-			<Text>Krepost</Text>
+		<Row Tag="TXT_KEY_BUILDING_SCHOOL_LIBRARY">
+			<Text>School Library</Text>
 		</Row>
-		<!--
-		<Row Tag="TXT_KEY_BUILDING_CIRCUS">
-			<Text>Circus</Text>
+		<Row Tag="TXT_KEY_BUILDING_MULTIMEDIA_CLASSROOM">
+			<Text>Multimedia Classroom</Text>
 		</Row>
-		-->
-		<Row Tag="TXT_KEY_BUILDING_GARDEN">
-			<Text>Garden</Text>
+		<Row Tag="TXT_KEY_BUILDING_LAB">
+			<Text>Lab</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_IRONWORKS">
-			<Text>Ironworks</Text>
+		<Row Tag="TXT_KEY_BUILDING_PLAYGROUND">
+			<Text>Playground</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ACTIVITY_ROOM">
+			<Text>Activity Room</Text>
 			<Gender>neuter:an</Gender>
-			<Plurality>2</Plurality>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY">
-			<Text>Oxford University</Text>
+		<Row Tag="TXT_KEY_BUILDING_GAME_CENTER">
+			<Text>Game Center</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_HERMITAGE">
-			<Text>Hermitage</Text>
+		<Row Tag="TXT_KEY_BUILDING_LITERATURE_CLUB">
+			<Text>Literature Club</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STONE_WORKS">
-			<Text>Stone Works</Text>
+		<Row Tag="TXT_KEY_BUILDING_CHORUS_CLUB">
+			<Text>Chorus Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OPERA_CLUB">
+			<Text>Opera Club</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_K_ON">
+			<Text>K-ON!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TRACK_AND_FIELD_CLUB">
+			<Text>Track &amp; Field Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BASKETBALL_CLUB">
+			<Text>Basketball Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KYUDO_CLUB">
+			<Text>Kyudo Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KENDO_CLUB">
+			<Text>Kendo Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SWIMMING_CLUB">
+			<Text>Swimming Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DRIVING_CLUB">
+			<Text>Driving Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CONVENIENT_STORE">
+			<Text>Convenient Store</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUPERMARKET">
+			<Text>Supermarket</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHOTENGAI">
+			<Text>Shotengai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WALL">
+			<Text>Wall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DORMITORY_COUNCIL">
+			<Text>Dormitory Council</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SECURITY_OFFICE">
+			<Text>Security Office</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEIDOKAI">
+			<Text>Seidokai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HANDICRAFT_CLUB">
+			<Text>Handicraft Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ENGINEERING_ASSOCIATION">
+			<Text>Engineering Association</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MACHINARY CLUB">
+			<Text>Machinary Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EQUIPMENT_ROOM">
+			<Text>Equipment Room</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHIPMODEL_CLUB">
+			<Text>Ship Model Club</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
