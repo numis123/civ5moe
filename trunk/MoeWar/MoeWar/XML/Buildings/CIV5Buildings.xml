@@ -7,38 +7,41 @@
 <GameData>
 	<Buildings>
 		<!-- 屏蔽原版建筑 -->
-		<!--
 		<Delete Type="BUILDING_COURTHOUSE"/>
-		<Delete Type="BUILDING_STABLE"/>
-		<Delete Type="BUILDING_FORGE"/>
-		<Delete Type="BUILDING_LIGHTHOUSE"/>
-		<Delete Type="BUILDING_HARBOR"/>
-		<Delete Type="BUILDING_COLOSSEUM"/>
-		<Delete Type="BUILDING_MONUMENT"/>
-		<Delete Type="BUILDING_STADIUM"/>
-		<Delete Type="BUILDING_OPERA_HOUSE"/>
-		<Delete Type="BUILDING_MUSEUM"/>
-		<Delete Type="BUILDING_BROADCAST_TOWER"/>
-		<Delete Type="BUILDING_ARMORY"/>
-		<Delete Type="BUILDING_ARSENAL"/>
-		<Delete Type="BUILDING_WALLS"/>
-		<Delete Type="BUILDING_CASTLE"/>
-		<Delete Type="BUILDING_MILITARY_BASE"/>
 		<Delete Type="BUILDING_GRANARY"/>
+		<Delete Type="BUILDING_AQUEDUCT"/>
 		<Delete Type="BUILDING_HOSPITAL"/>
 		<Delete Type="BUILDING_MEDICAL_LAB"/>
-		<Delete Type="BUILDING_WORKSHOP"/>
-		<Delete Type="BUILDING_FACTORY"/>
-		<Delete Type="BUILDING_MARKET"/>
-		<Delete Type="BUILDING_BANK"/>
-		<Delete Type="BUILDING_STOCK_EXCHANGE"/>
+		<Delete Type="BUILDING_LIGHTHOUSE"/>
 		<Delete Type="BUILDING_LIBRARY"/>
 		<Delete Type="BUILDING_UNIVERSITY"/>
 		<Delete Type="BUILDING_PUBLIC_SCHOOL"/>
 		<Delete Type="BUILDING_LABORATORY"/>
+		<Delete Type="BUILDING_COLOSSEUM"/>
+		<Delete Type="BUILDING_THEATRE"/>
+		<Delete Type="BUILDING_STADIUM"/>
+		<Delete Type="BUILDING_MONUMENT"/>
+		<Delete Type="BUILDING_OPERA_HOUSE"/>
+		<Delete Type="BUILDING_MUSEUM"/>
+		<Delete Type="BUILDING_BROADCAST_TOWER"/>
 		<Delete Type="BUILDING_BARRACKS"/>
-		-->
-		<!--尚未有替代建筑-->
+		<Delete Type="BUILDING_ARMORY"/>
+		<Delete Type="BUILDING_MARKET"/>
+		<Delete Type="BUILDING_BANK"/>
+		<Delete Type="BUILDING_STOCK_EXCHANGE"/>
+		<Delete Type="BUILDING_WALLS"/>
+		<Delete Type="BUILDING_CASTLE"/>
+		<Delete Type="BUILDING_ARSENAL"/>
+		<Delete Type="BUILDING_MILITARY_BASE"/>
+		<Delete Type="BUILDING_WORKSHOP"/>
+		<Delete Type="BUILDING_FACTORY"/>
+		<Delete Type="BUILDING_FORGE"/>
+		<Delete Type="BUILDING_HARBOR"/>
+		<Delete Type="BUILDING_STABLE"/>
+		<!-- 仍然使用的建筑 -->
+		<!--
+		<Delete Type="BUILDING_GARDEN"/>-->
+		<!--尚未有替代的建筑-->
 		<!--
 		<Delete Type="BUILDING_SEAPORT"/>
 		<Delete Type="BUILDING_WATERMILL"/>
@@ -49,11 +52,11 @@
 		<Delete Type="BUILDING_MINT"/>
 		<Delete Type="BUILDING_OBSERVATORY"/>
 		<Delete Type="BUILDING_MONASTERY"/>
-		<Delete Type="BUILDING_STONE_WORKS"/>
 		<Delete Type="BUILDING_TEMPLE"/>
 		<Delete Type="BUILDING_MILITARY_ACADEMY"/>
 		<Delete Type="BUILDING_NUCLEAR_PLANT"/>
-		<Delete Type="BUILDING_SPACESHIP_FACTORY"/>-->
+		<Delete Type="BUILDING_SPACESHIP_FACTORY"/>
+		<Delete Type="BUILDING_STONE_WORKS"/>-->
 		<Row>
 			<!-- 家长委员会 -->
 			<Type>BUILDING_PARENT_COMMITTEE</Type>
