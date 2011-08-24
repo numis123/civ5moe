@@ -110,6 +110,11 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/GlobalDefines.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Buildings.xml</FileName>
+      </Action>
     </ModActions>
     <ModProperties />
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
@@ -195,6 +200,10 @@
     <Content Include="Art\XML\Kotomi_scene.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Buildings\CIV5BuildingClasses.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Buildings\CIV5Buildings.xml">
       <SubType>Lua</SubType>
