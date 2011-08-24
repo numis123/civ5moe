@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PARENT_COMMITTEE">
+			<Text>Parent Committee</Text>
+		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BUFFET">
 			<Text>Buffet</Text>
 		</Row>
@@ -97,7 +100,7 @@
 			<Text>Engineering Association</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MACHINARY CLUB">
+		<Row Tag="TXT_KEY_BUILDING_MACHINARY_CLUB">
 			<Text>Machinary Club</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EQUIPMENT_ROOM">
