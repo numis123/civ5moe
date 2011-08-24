@@ -115,6 +115,16 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/NewText/EN_US/CIV5GameTextInfos_Buildings.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Buildings/CIV5Buildings.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Buildings/CIV5BuildingClasses.xml</FileName>
+      </Action>
     </ModActions>
     <ModProperties />
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
