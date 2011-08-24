@@ -128,6 +128,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Art" />
+    <Folder Include="Art\Map" />
+    <Folder Include="Art\DOM" />
+    <Folder Include="Art\Icon" />
+    <Folder Include="Art\DipFB" />
+    <Folder Include="Art\XML" />
     <Folder Include="XML" />
     <Folder Include="XML\Civilizations" />
     <Folder Include="XML\Interface" />
@@ -139,55 +144,55 @@
     <Folder Include="XML\NewText\EN_US" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Art\CivilizationIconAtlas128.dds">
+    <Content Include="Art\DipFB\Kotomi_DipFB.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivilizationIconAtlas256.dds">
+    <Content Include="Art\DOM\Kotomi_DOM.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivilizationIconAtlas32.dds">
+    <Content Include="Art\Icon\CivilizationIconAtlas128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivilizationIconAtlas45.dds">
+    <Content Include="Art\Icon\CivilizationIconAtlas256.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivilizationIconAtlas64.dds">
+    <Content Include="Art\Icon\CivilizationIconAtlas32.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\CivilizationIconAtlas80.dds">
+    <Content Include="Art\Icon\CivilizationIconAtlas45.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Kotomi_DipFB.dds">
+    <Content Include="Art\Icon\CivilizationIconAtlas64.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Kotomi_DOM.dds">
+    <Content Include="Art\Icon\CivilizationIconAtlas80.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Kotomi_Map.dds">
+    <Content Include="Art\Icon\LeaderIconAtlas128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\Kotomi_scene.xml">
+    <Content Include="Art\Icon\LeaderIconAtlas256.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\LeaderIconAtlas128.dds">
+    <Content Include="Art\Icon\LeaderIconAtlas64.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\LeaderIconAtlas256.dds">
+    <Content Include="Art\Map\Kotomi_Map.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\LeaderIconAtlas64.dds">
+    <Content Include="Art\XML\Kotomi_scene.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
