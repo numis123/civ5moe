@@ -12,11 +12,59 @@
 			<Text>Leader of KOTOMI</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_DAWN_KOTOMI_TEXT">
-			<!--<Text>Best game from Key.</Text>-->
-			<Text>KOTOMI wants you!</Text>
+			<Text>
+				Kotomi Ichinose is another schoolmate of Tomoya Okazaki in the same year, but, like Kyou, is in a separate class from Tomoya. She is in the top ten for every subject throughout the whole country in standardized exam results. She always goes to the library to read extra materials, especially books in foreign languages. Kotomi is a very quiet girl and it is quite difficult to communicate with her, as she is extremely shy. In her spare time, she plays the violin, although she is very poor at it to the point of causing pain to those who hear her play as a comedic effect.
+				[NEWLINE][NEWLINE]Tomoya meets her, but does not remember that they were once good friends, when he enters the library and finds Kotomi sitting on the floor barefoot, reading books with scissors in her hand, and acts oddly with Tomoya. After several meetings with Kotomi, Tomoya starts skipping the fourth period to spend time with Kotomi in the library. Kotomi soon decides to join the drama club.
+			</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_DAWN_UNITEDSTATES_TITLE">
+		<Row Tag="TXT_KEY_CIV5_DAWN_KOTOMI_TITLE">
 			<Text>KOTOMI</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_TOMOYO_TEXT">
+			<Text>
+				Tomoyo Sakagami transferred to Hikarizaka Private High School as a second year student during spring. She was once known as a tough girl who beats up troublesome delinquents. Although Tomoya is older than her, Tomoyo does not show him his due respect as a senior student. She has a younger brother named Takafumi.
+				[NEWLINE][NEWLINE]Tomoyo is first shown to be a popular girl, although she is rumored to be violent and to have a misconduct record for fighting. These rumors are later confirmed, when she beats up several delinquents from her previous school during school hours. Youhei challenges Tomoyo, unable to believe what he saw. She easily defeats him, and it becomes a frequent gag in the series for Sunohara to challenge Tomoyo for stupid reasons, which always ends in his defeat. Tomoyo usually uses chain combos with her high-speed kicks, even combining with Tomoya once. Sunohara's face is usually hidden after the beating, implying it to be too damaged to show on screen.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_TOMOYO_TITLE">
+			<Text>TOMOYO</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_NAGISA_TEXT">
+			<Text>
+				Nagisa Furukawa, later Nagisa Okazaki, is the main heroine of Clannad. Although she is in her third year in the Hikarizaka Private High School, as is Tomoya Okazaki, Nagisa is actually one year older than her classmates since she had to repeat her third year after an illness that lasted nine months. Her health is weak and she periodically undergoes long periods of illness ever since she was five years old. Although she doesn't remember this, she almost died due to her parents' unintended negligence. Both of them were too busy to care for her properly while she was ill, but her life was saved after Akio begged for her to become healthy again. Her favorite foods are sweet bean bread (or Anpan) and pork cutlet.
+				[NEWLINE][NEWLINE]In the episode On the Hillside Path Where the Cherry Blossoms Flutter, she meets Tomoya on a long hill path in front of the school. She has a strange habit of muttering the names of food that she plans to eat as a way to motivate herself, such as anpan and also has a liking of a group mascot known as "Dango Daikazoku" (Great Dango Family). She wants to join the Drama Club, however the Club was disbanded previous year after all the members graduated and no new members entered. After finding this out she and Tomoya try to re-establish the Drama Club. She does not have much self-confidence so she often needs help in order to motivate herself through the day. She lives in the Furukawa Bakery with her parents Akio and Sanae, whom she loves very much.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_NAGISA_TITLE">
+			<Text>NAGISA</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_KYOU_TEXT">
+			<Text>
+				Kyou Fujibayashi is a bad-mouthed and aggressive girl who is also a surprisingly good cook. The older of the Fujibayashi twins, her younger sister is Ryou. She was Tomoya's class representative in their second year, and has maintained a steady friendship with Tomoya even though they are put in different classes on their third year. She is the class representative of class 3-D in Clannad. She has a pet baby boar named Botan. She owns a scooter, which is known only to Tomoya, Nagisa, and her sister. She throws various types of dictionaries towards anyone she gets furious with, especially Yōhei Sunohara. Her strength is great, with Tomoya once comparing it to Tomoyo's kicks. Her dictionaries are thrown with enough force to crack concrete in the anime.
+				[NEWLINE][NEWLINE]Another World: Kyou Chapter
+				[NEWLINE][NEWLINE]Kyou's story starts when she tries to make Tomoya get intimately close with Ryou. However, when a rumor about Tomoya being a two timer with Ryou and Kyou spread around the school, Kyou starts avoiding Tomoya, Ryou becomes more bold. Yōhei finds out that Kyou has a crush on Tomoya too, and advises Tomoya to settle things out before more misunderstanding happens. After much conflict of playing boyfriend and girlfriend with Ryou, Tomoya breaks up with Ryou and confesses his love to Kyou, in return confesses her love to him and become a couple.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_KYOU_TITLE">
+			<Text>KYOU</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_FUKO_TEXT">
+			<Text>
+				Fuko Ibuki is a first year student at the Hikarizaka Private High School. She is always alone, making wood carvings of starfish with a small knife to give to others as presents. This hobby completely drains her concentration and awareness of her surroundings.
+				[NEWLINE][NEWLINE]Tomoya meets Fuko in an empty classroom, carving a block of wood with a knife. Tomoya confiscates the knife after noticing she is hurting herself, but eventually returns the knife the next day. Some days later, Tomoya learns from Fuko that she is carving wooden starfish, whom everyone mistakes as being common stars, to be distributed to all the students in the school, wanting them to attend her sister Kouko's wedding. The main problem is that no one in the school knows about Kouko, who had retired from teaching art three years ago. She likes starfish so much that she will often go into a starfish daydream at any time during the day, which no one manages to wake her up from. Tomoya uses this time to play pranks on her.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_FUKO_TITLE">
+			<Text>FUKO</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_YUKINE_TEXT">
+			<Text>
+				Yukine Miyazawa is a second year student who hangs around in the library's reference room during lunchtime. She is very helpful and often serves tea and cooks meals for those who visit her. Yukine is noted to be an excellent cook ,even though she prepares ready-made food most of the time, and has a small gas stove in the reference room in order to prepare meals for her guests. Yukine's theme song is Tea Party in the Reference Room.
+				[NEWLINE][NEWLINE]In the visual novel, her arc simply explains her everyday life with Sunohara and Tomoya, until the moment where a year has passed since her brother died. She then visits the grave with Tomoya and her brother's gang and, after giving a very emotional speech, she is kissed by Tomoya.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_YUKINE_TITLE">
+			<Text>YUKINE</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_KUROKO_LIVED">
 			<Text>?</Text>
@@ -24,14 +72,17 @@
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_KUROKO_NAME">
 			<Text>Shirai Kuroko</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_KOTOMI_SUBTITLE">
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_KUROKO_SUBTITLE">
 			<Text>Leader of KUROKO</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_DAWN_KOTOMI_TEXT">
-			<!--<Text>Best game from Key.</Text>-->
-			<Text>One sama!</Text>
+		<Row Tag="TXT_KEY_CIV5_DAWN_KUROKO_TEXT">
+			<Text>
+				Shirai Kuroko is a level 4 esper and student of Tokiwadai Middle School, as well as a member of Judgement. She can usually be found accompanying the third-ranked Level 5 esper Misaka Mikoto- her best friend, partner, and roommate. Though a minor character in Toaru Majutsu no Index, she gets a starring role alongside Mikoto in the Toaru Kagaku no Railgun sidestory. She is voiced by Satomi Arai.
+				[NEWLINE][NEWLINE]Kuroko is Misaka's 'kouhai' in Tokiwadai Middle School. A Level 4 psychic, she is a member of Judgment (Public Morals Committee), a special public committee group whose duty is to maintain peace and order in Academy City.
+				[NEWLINE][NEWLINE]She is apparently in love with Misaka, whom she calls "Onee-sama" (big sister); she is on the constant lookout for a chance to get physically intimate with Misaka (getting called a pervert in the process), and tends to get jealous if someone else gets her attention; this unfortunately happens to Touma.
+			</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_DAWN_UNITEDSTATES_TITLE">
+		<Row Tag="TXT_KEY_CIV5_DAWN_KUROKO_TITLE">
 			<Text>KUROKO</Text>
 		</Row>
 	</Language_en_US>
