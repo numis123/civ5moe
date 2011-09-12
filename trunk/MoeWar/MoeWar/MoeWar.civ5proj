@@ -10,7 +10,7 @@
     <Teaser>Civ V Saimoe Tournament, hosted by XXX</Teaser>
     <Description>Civ V Saimoe Tournament, hosted by XXX</Description>
     <Authors>L.T.;Arkin</Authors>
-    <SpecialThanks>西艾薇·C·Kyou</SpecialThanks>
+    <SpecialThanks>Civ·C·Kyou</SpecialThanks>
     <Categories>$Categories$</Categories>
     <AffectsSavedGames>true</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
@@ -163,7 +163,27 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Art\DOM\Fuko_DOM.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Art\DOM\Kotomi_DOM.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\DOM\Kyou_DOM.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\DOM\Nagisa_DOM.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\DOM\Tomoyo_DOM.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\DOM\Yukine_DOM.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
