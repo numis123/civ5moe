@@ -349,8 +349,8 @@
 	<Civilization_BuildingClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
-			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<BuildingType>BUILDING_TOE_LAB</BuildingType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
@@ -359,69 +359,13 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
-			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+			<BuildingType>BUILDING_TOMOYO_SEIDOKAI</BuildingType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
-			<BuildingType>BUILDING_KREPOST</BuildingType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
-			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_KYOU</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
-			<BuildingType>BUILDING_KREPOST</BuildingType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_KYOU</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
-			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_FUKO</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
-			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_FUKO</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
-			<BuildingType>BUILDING_KREPOST</BuildingType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
-			<BuildingType>BUILDING_KREPOST</BuildingType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
-			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
-			<BuildingType>BUILDING_KREPOST</BuildingType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
-			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
-		</Row>
-		<!--
-		<Row>
-			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
-			<BuildingType>BUILDING_DRAMA_CLUB</BuildingType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
@@ -429,14 +373,19 @@
 			<BuildingType>BUILDING_FURUKAWA_PAN</BuildingType>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_KOTOMI</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
-			<BuildingType>BUILDING_TOE_LAB</BuildingType>
+			<CivilizationType>CIVILIZATION_NAGISA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<BuildingType>BUILDING_DRAMA_CLUB</BuildingType>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_TOMOYO</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
-			<BuildingType>BUILDING_HIKARIZAKA_SEITOKAI</BuildingType>
+			<CivilizationType>CIVILIZATION_KYOU</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KYOU</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_FUKO</CivilizationType>
@@ -444,16 +393,30 @@
 			<BuildingType>BUILDING_STARFISH_WORKSHOP</BuildingType>
 		</Row>
 		<Row>
+			<CivilizationType>CIVILIZATION_FUKO</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+		</Row>
+		<Row>
 			<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
-			<BuildingType>BUILDING_SHIRYOUSHITSU</BuildingType>
+			<BuildingType>BUILDING_REFERENCE_ROOM</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_YUKINE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
-			<BuildingType>BUILDING_JUDGEMENT</BuildingType>
+			<BuildingType>BUILDING_JUDGMENT_BRANCH</BuildingType>
 		</Row>
-	-->
+		<Row>
+			<CivilizationType>CIVILIZATION_KUROKO</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+		</Row>
 	</Civilization_BuildingClassOverrides>
 	<!-- 各文明出生点偏向，四选一，有优先级  -->
 	<!-- Coastal bias trumps River bias trumps Region Priority trumps Region Avoid  -->

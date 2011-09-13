@@ -4,6 +4,29 @@
 		<Row Tag="TXT_KEY_BUILDING_PARENT_COMMITTEE">
 			<Text>Parent Committee</Text>
 		</Row>
+		<!-- Unique Buildings -->
+		<Row Tag="TXT_KEY_BUILDING_FURUKAWA_PAN">
+			<Text>Furukawa Pan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DRAMA_CLUB">
+			<Text>Drama Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TOE_LAB">
+			<Text>TOE Research Room</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TOMOYO_SEIDOKAI">
+			<Text>Tomoyo's Seidokai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STARFISH_WORKSHOP">
+			<Text>Starfish Workshop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFERENCE_ROOM">
+			<Text>Reference Room</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JUDGMENT_BRANCH">
+			<Text>Judgment Branch</Text>
+		</Row>
+		<!-- Normal Buildings -->
 		<Row Tag="TXT_KEY_BUILDING_BUFFET">
 			<Text>Buffet</Text>
 		</Row>
@@ -23,7 +46,7 @@
 			<Text>Study Room</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SCHOOL_LIBRARY">
-			<Text>School Library</Text>
+			<Text>Library</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MULTIMEDIA_CLASSROOM">
 			<Text>Multimedia Classroom</Text>

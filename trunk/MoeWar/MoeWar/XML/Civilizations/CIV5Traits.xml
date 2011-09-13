@@ -27,7 +27,7 @@
 			<Type>TRAIT_TSUKKOMI</Type>
 			<Description>TXT_KEY_TRAIT_TSUKKOMI</Description>
 			<ShortDescription>TXT_KEY_TRAIT_TSUKKOMI_SHORT</ShortDescription>
-			<CityCultureBonus>1</CityCultureBonus>
+			<CityCultureBonus>2</CityCultureBonus>
 		</Row>
 		<!-- 领袖智代的UA -->
 		<Row>
@@ -40,7 +40,7 @@
 			<Type>TRAIT_ANEGO</Type>
 			<Description>TXT_KEY_TRAIT_ANEGO</Description>
 			<ShortDescription>TXT_KEY_TRAIT_ANEGO_SHORT</ShortDescription>
-			<CityStateBonusModifier>33</CityStateBonusModifier>
+			<CityStateBonusModifier>50</CityStateBonusModifier>
 		</Row>
 		<!-- 领袖黑子的UA -->
 		<Row>
@@ -53,7 +53,7 @@
 		<Row>
 			<TraitType>TRAIT_TALENTED_GIRL</TraitType>
 			<Yieldtype>YIELD_SCIENCE</Yieldtype>
-			<Yield>15</Yield>
+			<Yield>25</Yield>
 		</Row>
 		<!--文化无效果
 		<Row>
