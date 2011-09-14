@@ -212,8 +212,8 @@
 			<ArtDefineTag>CASTLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>400</Defense>
-			<HurryCostModifier>25</HurryCostModifier>
+			<Defense>800</Defense>
+			<HurryCostModifier>50</HurryCostModifier>
 			<IconAtlas>MOE_BUILDING_ATLAS</IconAtlas>
 			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
 			<DisplayPosition>1</DisplayPosition>
