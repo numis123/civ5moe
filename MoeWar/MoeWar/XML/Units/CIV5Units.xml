@@ -53,8 +53,8 @@
 			<AdvancedStartCost>25</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_U_SONGHAI_MUSLIMCAVALRY</UnitArtInfo>
-			<UnitFlagIconOffset>26</UnitFlagIconOffset>
+			<UnitArtInfo>ART_DEF_UNIT_U_SIAMESE_WARELEPHANT</UnitArtInfo>
+			<UnitFlagIconOffset>28</UnitFlagIconOffset>
 			<IconAtlas>MOE_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
@@ -174,15 +174,15 @@
 			<MoveRate>HEAVY_BIPED</MoveRate>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_RIFLEMAN</Class>
+			<Class>UNITCLASS_MUSKETMAN</Class>
 			<Type>UNIT_JUDGMENT</Type>
-			<PrereqTech>TECH_RIFLING</PrereqTech>
-			<Combat>25</Combat>
-			<Cost>225</Cost>
-			<Moves>2</Moves>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<Combat>18</Combat>
+			<Cost>400</Cost>
+			<Moves>3</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_JUDGMENT</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNIT_JUDGMENT_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_JUDGMENT_STRATEGY</Strategy>
@@ -191,14 +191,14 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
-			<AdvancedStartCost>30</AdvancedStartCost>
+			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>25</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
-			<Conscription>5</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_RIFLEMAN</UnitArtInfo>
-			<UnitFlagIconOffset>47</UnitFlagIconOffset>
+			<Conscription>4</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_FRENCH_MUSKETEER</UnitArtInfo>
+			<UnitFlagIconOffset>39</UnitFlagIconOffset>
 			<IconAtlas>MOE_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
 		</Row>
@@ -296,7 +296,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_JUDGMENT</UnitType>
-			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
 		</Row>
 	</Unit_ClassUpgrades>
 	<Unit_Flavors>
@@ -378,12 +378,12 @@
 		<Row>
 			<UnitType>UNIT_JUDGMENT</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_JUDGMENT</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 	</Unit_Flavors>
 	<Unit_FreePromotions>
@@ -406,10 +406,6 @@
 		<Row>
 			<UnitType>UNIT_BOTAN_KNIGHT</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BOTAN_KNIGHT</UnitType>
-			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_VIOLINIST</UnitType>
@@ -450,4 +446,11 @@
 			<ResourceType>RESOURCE_IRON</ResourceType>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
+	<Unit_ProductionModifierBuildings>
+		<Row>
+			<UnitType>UNIT_JUDGMENT</UnitType>
+			<BuildingType>BUILDING_JUDGMENT_BRANCH</BuildingType>
+			<ProductionModifier>200</ProductionModifier>
+		</Row>
+	</Unit_ProductionModifierBuildings>
 </GameData>

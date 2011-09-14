@@ -35,5 +35,11 @@
 		<Row Tag="TXT_KEY_PROMOTION_KOTOMI_VIOLIN_HELP">
 			<Text>Enemy units are -15% [ICON_STRENGTH] Combat Strength when adjacent to any unit with this promotion.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JUDGMENT_DISCIPLINE">
+			<Text>Judgment Discipline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JUDGMENT_DISCIPLINE_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength when adjacent to a friendly Unit.</Text>
+		</Row>
 	</Language_en_US>
 </GameData>
