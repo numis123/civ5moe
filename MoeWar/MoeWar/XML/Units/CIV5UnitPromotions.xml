@@ -14,6 +14,19 @@
 			<PediaType>PEDIA_SHARED</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_KING_MIGHTY</PediaEntry>
 		</Row>
+		<Row>
+			<Type>PROMOTION_KOTOMI_VIOLIN</Type>
+			<Description>TXT_KEY_PROMOTION_KOTOMI_VIOLIN</Description>
+			<Help>TXT_KEY_PROMOTION_KOTOMI_VIOLIN_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<NearbyEnemyCombatMod>-15</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_KOTOMI_VIOLIN</PediaEntry>
+		</Row>
 	</UnitPromotions>
 	<UnitPromotions_UnitCombats>
 		<Row>

@@ -2,11 +2,38 @@
 <!-- Created by ModBuddy on 8/10/2011 1:16:22 PM -->
 <GameData>
 	<Language_en_US>
-		<Row Tag="TXT_KEY_PROMOTION_KING_MIGHTY_HELP">
-			<Text>+10% [ICON_STRENGTH] Combat Strength</Text>
+		<Row Tag="TXT_KEY_UNIT_DICTIONARY_THROWER">
+			<Text>Dictionary Thrower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOTAN_KNIGHT">
+			<Text>Botan Knight</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VIOLINIST">
+			<Text>Violinist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BEAR_PATROL">
+			<Text>Bear Patrol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FUKO_GUARD">
+			<Text>Fuko Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FURYOU">
+			<Text>Delinquent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JUDGMENT">
+			<Text>Judgment</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KING_MIGHTY">
 			<Text>King mighty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KING_MIGHTY_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KOTOMI_VIOLIN">
+			<Text>Violin Wave Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KOTOMI_VIOLIN_HELP">
+			<Text>Enemy units are -15% [ICON_STRENGTH] Combat Strength when adjacent to any unit with this promotion.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
