@@ -42,7 +42,7 @@
 			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>Tomoyo_Map.dds</MapImage>
-			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_CHINA_TEXT</DawnOfManQuote>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_TOMOYO_TEXT</DawnOfManQuote>
 			<DawnOfManImage>Tomoyo_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_CHINA</DawnOfManAudio>
 		</Row>
@@ -62,7 +62,7 @@
 			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>Nagisa_Map.dds</MapImage>
-			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_EGYPT_TEXT</DawnOfManQuote>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_NAGISA_TEXT</DawnOfManQuote>
 			<DawnOfManImage>Nagisa_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_EGYPT</DawnOfManAudio>
 		</Row>
@@ -82,7 +82,7 @@
 			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>Kyou_Map.dds</MapImage>
-			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_OTTOMANS_TEXT</DawnOfManQuote>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_KYOU_TEXT</DawnOfManQuote>
 			<DawnOfManImage>Kyou_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_OTTOMANS</DawnOfManAudio>
 		</Row>
@@ -102,7 +102,7 @@
 			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>Fuko_Map.dds</MapImage>
-			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_RUSSIA_TEXT</DawnOfManQuote>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_FUKO_TEXT</DawnOfManQuote>
 			<DawnOfManImage>Fuko_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_RUSSIA</DawnOfManAudio>
 		</Row>
@@ -122,7 +122,7 @@
 			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>Yukine_Map.dds</MapImage>
-			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_ENGLAND_TEXT</DawnOfManQuote>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_YUKINE_TEXT</DawnOfManQuote>
 			<DawnOfManImage>Yukine_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_ENGLAND</DawnOfManAudio>
 		</Row>
@@ -142,7 +142,7 @@
 			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>Kuroko_Map.dds</MapImage>
-			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_GERMANY_TEXT</DawnOfManQuote>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_KUROKO_TEXT</DawnOfManQuote>
 			<DawnOfManImage>Kuroko_DOM.dds</DawnOfManImage>
 			<DawnOfManAudio>AS2D_DOM_SPEECH_GERMANY</DawnOfManAudio>
 		</Row>
