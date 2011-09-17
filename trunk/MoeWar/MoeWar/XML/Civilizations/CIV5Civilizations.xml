@@ -38,8 +38,8 @@
 			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
 			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
 			<ArtStylePrefix>ASIAN </ArtStylePrefix>
-			<PortraitIndex>13</PortraitIndex>
-			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>Tomoyo_Map.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_CHINA_TEXT</DawnOfManQuote>
@@ -58,8 +58,8 @@
 			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
 			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
 			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
-			<PortraitIndex>5</PortraitIndex>
-			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>Nagisa_Map.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_EGYPT_TEXT</DawnOfManQuote>
@@ -98,8 +98,8 @@
 			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
 			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
 			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
-			<PortraitIndex>18</PortraitIndex>
-			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>Fuko_Map.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_RUSSIA_TEXT</DawnOfManQuote>
@@ -118,8 +118,8 @@
 			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
 			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
 			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
-			<PortraitIndex>6</PortraitIndex>
-			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>Yukine_Map.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_ENGLAND_TEXT</DawnOfManQuote>
@@ -138,8 +138,8 @@
 			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
 			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
 			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
-			<PortraitIndex>8</PortraitIndex>
-			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>MOE_CIV_COLOR_ATLAS</IconAtlas>
 			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
 			<MapImage>Kuroko_Map.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_GERMANY_TEXT</DawnOfManQuote>
