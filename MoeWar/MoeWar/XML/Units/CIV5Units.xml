@@ -174,9 +174,9 @@
 			<MoveRate>HEAVY_BIPED</MoveRate>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_MUSKETMAN</Class>
+			<Class>UNITCLASS_RIFLEMAN</Class>
 			<Type>UNIT_JUDGMENT</Type>
-			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<Combat>18</Combat>
 			<Cost>400</Cost>
 			<Moves>3</Moves>
@@ -191,13 +191,13 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>25</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>4</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_U_FRENCH_MUSKETEER</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_RIFLEMAN</UnitArtInfo>
 			<UnitFlagIconOffset>39</UnitFlagIconOffset>
 			<IconAtlas>MOE_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
