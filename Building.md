@@ -1,0 +1,92 @@
+小卖部，+2粮食，小麦、香蕉+1粮食，维护费1（Granary，Buffet）
+
+厨艺社：33%粮食保留，维护费2（Adequate，Cooking Club）
+
+食堂：+6粮食，维护费3（Hospital，Dining Hall）
+
+园艺社：25%粮食保留，维护费4（Medical Lab，Gardening Club）
+
+垂钓部：水面+1粮食+1金，维护费2（Lighthouse，Fishing Club）
+
+——————————————————————————————
+
+自习室：两人口+1科研，维护费1（Library，Study Room）
+
+图书馆：+33%科研，维护费2（University，Library，游戏内部明为SCHOOL\_LIBRARY）
+
+多媒体教室：两人口+1科研，+4科研，维护费4（Public School，Multimedia Classroom）
+
+实验室：+50%科研，维护费5（Research Lab，Lab）
+
+——————————————————————————————
+
+操场：+3快乐，维护费4（Colosseum，Playground）
+
+活动室：+4快乐，维护费6（Theater，Activity room）
+
+游戏中心：+5快乐，维护费8（Stadium，Game Center）
+
+——————————————————————————————
+
+文学社：+2文化，维护费1（Monument，Literature Club）
+
+合唱部：+4文化，维护费2（Opera House，Chorus Club）
+
+歌剧社：+6文化，维护费3（Museum，Opera Club）
+
+轻音部：文化产出+50%，维护费5（Broadcast tower，K-ON!）
+
+——————————————————————————————
+
+田径部：单位经验+15XP，维护费2（Barrack，Track & Field Club）
+
+篮球部：单位经验+15XP，维护费3（Armory，Basketball Club）
+
+弓道部：远程单位经验+25XP，维护费3（Kyudo Club）
+
+剑道部：步兵单位经验+25XP，维护费3（Kendo Club）
+
+游泳部：海军单位经验+25XP，维护费3（Swimming Club）
+
+驾驶部：骑乘单位经验+25XP，维护费3（Driving Club）
+
+——————————————————————————————
+
+便利店：+2金，+20%金（Market，Convenient Store）
+
+超市：+30%金（Bank，Supermarket）
+
+商店街：+40%金（Stock exchange，Shotengai）
+
+——————————————————————————————
+
+养殖部：牛、羊、鹿额外+1粮食，+2粮食，2维护费（Breed Club）
+
+花园：伟人+33%（Garden），3维护费
+
+手工部：锤子+2，城池工业+15%，2维护费(Workshop，Handicraft Club)
+
+工程会：锤子+4，城池工业+25%，5维护费(Factory，Engineering Association)
+
+机械社：马额外+1锤子，建造骑乘单位+33%，2维护费(Stable，Machinary Club)
+
+器材室：铁额外+1锤子，建造步兵、弓兵、攻城单位+20%，2维护费(Forge，Equipment Room)
+
+航模社：海格额外+1锤子，建造海军单位+20%，3维护费(Harbor，Ship Model Association)
+
+水之色：建立连接首都商路，海上资源+1锤子+1金，3维护费（Mizunoiro）
+
+
+——————————————————————————————
+
+围墙：+？防御（Wall）
+
+宿管会：+？防御（Castle，Dormitory Council）
+
+保卫处：+？防御（Arsenal，Security Office)
+
+学生会：+？防御（Military Base，Seidokai）
+
+——————————————————————————————
+
+家长委员会：取代法院，维护费10（Parent Committee）
